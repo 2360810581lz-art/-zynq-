@@ -41,9 +41,6 @@ python -B sim/calibration/check_traces.py --output ../trace_check.json
 
 硬件重建按 [build/README.md](build/README.md) 执行，生成物写到包外的新目录。修改 PL 后依次生成新 bit、新 HDF，再重建 SDK/BSP/ELF 和 BOOT。
 
-## 当前进度
-
-11 月 3 日完成过两次指定坐标抓放，第一轮同时确认 HDMI 画框。11 月 4 日恢复后完成 Flash 回读和 JTAG 下帧前进检查，冷启动、实屏显示和抓放尚未重新确认。当前执行联调使用串口注入坐标，视觉直接调度机构的自主闭环还需要端到端验收。
 
 `manifest.json` 记录逐文件哈希，`board/release/release.json` 记录配套镜像，`report/provenance/source_map.json` 记录源码和证据的来源。第三方设计及资料的说明见 [third_party_notices.md](report/third_party_notices.md)。
 
