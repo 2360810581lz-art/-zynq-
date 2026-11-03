@@ -1,0 +1,21 @@
+{
+  "snapshot": "20261104_original_control_restore",
+  "baseline": "20261103_115407_camera_claw_experimental_jtag",
+  "sha256": {
+    "board/release/boot.bin": "cc6d671f43d8161463eed6ab54174265b617a7d417a9f97241ba6dbf7a711cbc",
+    "board/release/camera_claw_top.bit": "5bc6a285133f9bc8adf57095756ff0c416779d40649cfeba19b3c8b2aa581dc9",
+    "board/release/camera_claw_top.hdf": "3726c7f4c1c5fa17e9a911dd6b38bb8bd119c364222528de9156c4874059ff0e",
+    "board/release/fsbl_2019.elf": "fec18475f575c5179d4a2b852a7820cf3c798cf5c347a4a66513adbf6c41e16a",
+    "board/release/live_overlay.elf": "247e0eb21c467712f39565189e900cc6ac020a1fb6119c5f33741229d785b752"
+  },
+  "timing_closed": false,
+  "new_cold_boot_verified": false,
+  "new_physical_grasp_verified": false,
+  "historical_manual_pick_trials": 2,
+  "autonomous_closed_loop_verified": false,
+  "hls_color_integrated": false,
+  "uart": {
+    "app": "UART1",
+    "fsbl": "UART0"
+  }
+}

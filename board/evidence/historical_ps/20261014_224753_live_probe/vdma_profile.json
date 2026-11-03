@@ -1,0 +1,172 @@
+{
+  "state": "succeeded",
+  "hdf_sha256": "0fd211751ee8afa8fb9d7f5edcb7fb660bc00c5175535c86f474f07a7f341bdf",
+  "elf_sha256": "ede37c72b389991dab8d04193a57286d2cb7c0a30471db385fe681250ab2fa8e",
+  "bit_sha256": "f4139c6d4fc827f59cd04789f877f19916e8fb2948ac218e8d61c5ad5c4be100",
+  "vdma": {
+    "axi_vdma_1": {
+      "baseaddr": 1124073472,
+      "active_channel": "S2MM",
+      "hdf_parameters": {
+        "C_PRMRY_IS_ACLK_ASYNC": "1",
+        "C_INCLUDE_MM2S": "0",
+        "C_INCLUDE_S2MM": "1",
+        "C_NUM_FSTORES": "3",
+        "C_ENABLE_VIDPRMTR_READS": "1"
+      },
+      "clocks": [
+        {
+          "CLKFREQUENCY": "100000000",
+          "DIR": "I",
+          "NAME": "s_axi_lite_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK0"
+        },
+        {
+          "CLKFREQUENCY": "142857132",
+          "DIR": "I",
+          "NAME": "m_axi_s2mm_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK1"
+        },
+        {
+          "CLKFREQUENCY": "142857132",
+          "DIR": "I",
+          "NAME": "s_axis_s2mm_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK1"
+        }
+      ],
+      "observations": [
+        {
+          "control": 98305,
+          "status": 69632,
+          "park": 0,
+          "version": 1644167248,
+          "address_bank": 0,
+          "frame_stores": 0,
+          "vsize": 720,
+          "hsize_bytes": 3840,
+          "stride_frame_delay": 5760,
+          "frame0": 1168832,
+          "frame1": 5316032,
+          "frame2": 1168832,
+          "error_bits": 0,
+          "park_reference": 0,
+          "current_frame": 0
+        },
+        {
+          "control": 98305,
+          "status": 69632,
+          "park": 16777472,
+          "version": 1644167248,
+          "address_bank": 0,
+          "frame_stores": 0,
+          "vsize": 720,
+          "hsize_bytes": 3840,
+          "stride_frame_delay": 5760,
+          "frame0": 1168832,
+          "frame1": 5316032,
+          "frame2": 1168832,
+          "error_bits": 0,
+          "park_reference": 1,
+          "current_frame": 1
+        }
+      ]
+    },
+    "axi_vdma_0": {
+      "baseaddr": 1124139008,
+      "active_channel": "MM2S",
+      "hdf_parameters": {
+        "C_PRMRY_IS_ACLK_ASYNC": "1",
+        "C_INCLUDE_MM2S": "1",
+        "C_INCLUDE_S2MM": "0",
+        "C_NUM_FSTORES": "3",
+        "C_ENABLE_VIDPRMTR_READS": "1"
+      },
+      "clocks": [
+        {
+          "CLKFREQUENCY": "100000000",
+          "DIR": "I",
+          "NAME": "s_axi_lite_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK0"
+        },
+        {
+          "CLKFREQUENCY": "142857132",
+          "DIR": "I",
+          "NAME": "m_axi_mm2s_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK1"
+        },
+        {
+          "CLKFREQUENCY": "142857132",
+          "DIR": "I",
+          "NAME": "m_axis_mm2s_aclk",
+          "SIGIS": "clk",
+          "SIGNAME": "processing_system7_0_FCLK_CLK1"
+        }
+      ],
+      "observations": [
+        {
+          "control": 65537,
+          "status": 69632,
+          "park": 131074,
+          "version": 1644167248,
+          "address_bank": 0,
+          "frame_stores": 0,
+          "vsize": 720,
+          "hsize_bytes": 3840,
+          "stride_frame_delay": 5760,
+          "frame0": 9463232,
+          "frame1": 15684032,
+          "frame2": 21904832,
+          "error_bits": 0,
+          "park_reference": 2,
+          "current_frame": 2
+        },
+        {
+          "control": 65537,
+          "status": 69632,
+          "park": 131074,
+          "version": 1644167248,
+          "address_bank": 0,
+          "frame_stores": 0,
+          "vsize": 720,
+          "hsize_bytes": 3840,
+          "stride_frame_delay": 5760,
+          "frame0": 9463232,
+          "frame1": 15684032,
+          "frame2": 21904832,
+          "error_bits": 0,
+          "park_reference": 2,
+          "current_frame": 2
+        }
+      ]
+    }
+  },
+  "clock_reset_registers": [
+    {
+      "0xf8000170": 2098432,
+      "0xf8000180": 1050368,
+      "0xf8000240": 0
+    },
+    {
+      "0xf8000170": 2098432,
+      "0xf8000180": 1050368,
+      "0xf8000240": 0
+    }
+  ],
+  "geometry": {
+    "width": 1280,
+    "height": 720,
+    "hsize_bytes": 3840,
+    "stride_bytes": 5760
+  },
+  "active_dma_errors": 0,
+  "clock_frequency_measured": false,
+  "cdc_verified": false,
+  "write_retirement_ownership_verified": false,
+  "system_timing_closed": false,
+  "scope": "Read-only non-atomic active VDMA observations on the freshly loaded baseline; no register writes or frame-ownership claim"
+}

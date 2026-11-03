@@ -1,0 +1,7 @@
+
+PIPE_COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261103_115407_camera_claw_experimental_jtag\\board_175435_355391\\board.tcl']
+TARGETS_BEFORE   1  APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Suspended)
+  4  xc7z020
+TOOLCHAIN_STATUS=SUCCESS

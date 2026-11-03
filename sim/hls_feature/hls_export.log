@@ -1,0 +1,41 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/XILINX/Vivado/2019.1/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'D:/XILINX/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'LZFY' on host 'desktop-sa4v8j2' (Windows NT_amd64 version 6.2) on Sat Oct 03 18:39:14 +0800 2026
+INFO: [HLS 200-10] In directory 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b'
+Sourcing Tcl script 'D:\312312\FPGA\camera_base_2019_1_fixed\hls\vision_feature_accel\export_ip.tcl'
+INFO: [HLS 200-10] Opening project 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b/vision_feature_accel_hls'.
+INFO: [HLS 200-10] Opening solution 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b/vision_feature_accel_hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-2'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'D:/XILINX/Vivado/2019.1/scripts/Vivado_init.tcl'
+vivado-mcp server ready on port 9999
+source run_ippack.tcl -notrace
+bad lexical cast: source type value could not be interpreted as target
+    while executing
+"rdi::set_property core_revision 2610031839 {component component_1}"
+    invoked from within
+"set_property core_revision $Revision $core"
+    (file "run_ippack.tcl" line 985)
+INFO: [Common 17-206] Exiting Vivado at Sat Oct  3 18:39:19 2026...
+ERROR: [IMPL 213-28] Failed to generate IP.
+command 'ap_source' returned error code
+    while executing
+"source {D:\312312\FPGA\camera_base_2019_1_fixed\hls\vision_feature_accel\export_ip.tcl}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $arg] "
+
+INFO: [Common 17-206] Exiting vivado_hls at Sat Oct  3 18:39:20 2026...

@@ -1,0 +1,22 @@
+COLOR_CASE_PASS history_0
+COLOR_CASE_PASS history_1
+COLOR_CASE_PASS history_2
+COLOR_CASE_PASS history_3
+COLOR_CASE_PASS random_high64
+COLOR_CASE_PASS five_colors
+COLOR_CASE_PASS tie_unknown
+COLOR_CASE_PASS dark_unknown
+COLOR_CASE_PASS empty
+COLOR_CASE_PASS overlap_fault
+COLOR_CASE_PASS late_pixel_fault
+COLOR_CASE_PASS membership_high_fault
+COLOR_CASE_PASS missing_object_fault
+COLOR_CASE_PASS pixel_framing_fault
+COLOR_CASE_PASS membership_terminal_fault
+COLOR_ALL_PASS cases=16
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.
+WARNING: Bitsize mismatch for ap_[u]int|=ap_[u]int.

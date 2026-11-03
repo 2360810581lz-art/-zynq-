@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "counts": {
+    "payload_files": 586,
+    "source_records": 547,
+    "ip_file_references": 265,
+    "locked_control_files": 12,
+    "ps_sources": 19,
+    "color_file_cases": 15,
+    "feature_test_images": 18,
+    "readme_local_links": 7
+  },
+  "issues": [],
+  "hardware_access": false,
+  "scope": "offline hashes and filesystem dependencies; not timing, synthesis or board acceptance"
+}

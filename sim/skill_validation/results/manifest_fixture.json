@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "artifact_count": 2,
+  "issues": [],
+  "scope": "file integrity and declared ancestry; does not prove build correctness, timing or hardware behavior"
+}

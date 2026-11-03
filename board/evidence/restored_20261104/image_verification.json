@@ -1,0 +1,49 @@
+{
+  "boot_verified": true,
+  "partitions": [
+    {
+      "name": "fsbl",
+      "offset": 5888,
+      "length": 114696,
+      "load": 0,
+      "entry": 0
+    },
+    {
+      "name": "camera_claw",
+      "offset": 120640,
+      "length": 2482368,
+      "load": 0,
+      "entry": 0
+    },
+    {
+      "name": "overlay",
+      "offset": 2603008,
+      "length": 114704,
+      "load": 1048576,
+      "entry": 1048576
+    }
+  ],
+  "inputs": {
+    "camera_claw_top.bit": "5bc6a285133f9bc8adf57095756ff0c416779d40649cfeba19b3c8b2aa581dc9",
+    "camera_claw_top.hdf": "3726c7f4c1c5fa17e9a911dd6b38bb8bd119c364222528de9156c4874059ff0e",
+    "software/live_overlay.elf": "247e0eb21c467712f39565189e900cc6ac020a1fb6119c5f33741229d785b752",
+    "software/fsbl_2019.elf": "fec18475f575c5179d4a2b852a7820cf3c798cf5c347a4a66513adbf6c41e16a"
+  },
+  "original_calibration": {
+    "passed": true,
+    "hardware_access": false,
+    "protected_files": 25,
+    "motion_sections_checked": {
+      "standalone": 20,
+      "integrated": 20
+    },
+    "reference": "toolchain/diagnostics/claw_stall_fix_20261104/original_rtl",
+    "scope": "Frozen calibration sources and motion sections; not physical verification"
+  },
+  "restored_rtl_matches": true,
+  "backup_verified": true,
+  "backup_file": "previous_flash_readback.bin",
+  "backup_sha256": "1b704ca34c53f024b50d7b85fb5f2e1531ad157c4e30f763b82e0893e5180179",
+  "backup_bytes": 2781184,
+  "backup_scope": "Full readback from immediately preceding verified deployment, not a fresh read today"
+}

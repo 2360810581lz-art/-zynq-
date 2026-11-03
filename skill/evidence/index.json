@@ -1,0 +1,161 @@
+{
+  "copied_at_utc": "2026-11-03T16:57:55.514342+00:00",
+  "source_workspace": "FPGA",
+  "entries": [
+    {
+      "id": "E01",
+      "file": "e01_vision_baseline.md",
+      "source_project_relative": "toolchain/vision_workbench/live_overlay/README.md",
+      "sha256": "fd64a20b0725ac5a200827a02d3f3e2cf36d7b904826159b390f7a01125a76e5",
+      "bytes": 11666
+    },
+    {
+      "id": "E02",
+      "file": "e02_color_notes.md",
+      "source_project_relative": "toolchain/vision_workbench/live_overlay/object_color_hls/README.md",
+      "sha256": "a6cbb60a1a18c1253394754aabb496001bbbad8882d4090b8b8719b7fb841f21",
+      "bytes": 4036
+    },
+    {
+      "id": "E03",
+      "file": "e03_color_csynth.xml",
+      "source_project_relative": "toolchain/jobs/20261018_021715_hls_2cefcb0f/color_hls/solution1/syn/report/live_object_color_csynth.xml",
+      "sha256": "003a3b0a50bf32049779a5533de5b94cf47bc0b7818352a74b67035b77b39621",
+      "bytes": 16249
+    },
+    {
+      "id": "E04",
+      "file": "e04_color_cosim.rpt",
+      "source_project_relative": "toolchain/jobs/20261018_021715_hls_2cefcb0f/color_hls/solution1/sim/report/live_object_color_cosim.rpt",
+      "sha256": "2d9cb6c43572f1a8f550f09f7026904fde5c604b949f4a010efdab8115e44a9f",
+      "bytes": 1080
+    },
+    {
+      "id": "E05",
+      "file": "e05_color_oracle.json",
+      "source_project_relative": "toolchain/jobs/20261018_021715_hls_2cefcb0f/inputs/oracle.json",
+      "sha256": "52abdf5c2ed66be847cc156ee36a00ad3fcdc0d1295266256f44b0f3eaf41ead",
+      "bytes": 8159
+    },
+    {
+      "id": "E06",
+      "file": "e06_components_old_receipt.json",
+      "source_project_relative": "toolchain/jobs/20261017_184221_hls_681de8cd/verification.json",
+      "sha256": "5ed4830de62b6977c0d468ec7268de3fa656f018355b40b28da30f31c142f1ff",
+      "bytes": 630
+    },
+    {
+      "id": "E07",
+      "file": "e07_components_cosim.rpt",
+      "source_project_relative": "toolchain/jobs/20261017_184221_hls_681de8cd/components_hls/solution1/sim/report/live_components_stream_cosim.rpt",
+      "sha256": "3bea5f3ccb4ae966402625b162019026ad51498b9524228d7bd40f5db5259d47",
+      "bytes": 1080
+    },
+    {
+      "id": "E08",
+      "file": "e08_components_csynth.xml",
+      "source_project_relative": "toolchain/jobs/20261017_184221_hls_681de8cd/components_hls/solution1/syn/report/live_components_stream_csynth.xml",
+      "sha256": "11f48b520c0b4eb1114a4416633f7bdd5b2a607eef3cd864848694d086d4e89a",
+      "bytes": 11871
+    },
+    {
+      "id": "E09",
+      "file": "e09_components_notes.md",
+      "source_project_relative": "toolchain/vision_workbench/live_overlay/components_stream_hls/README.md",
+      "sha256": "b07d1248bdb86693c65a4b7911fab795e9f19038fef68ef2ba453a1e33f7ea74",
+      "bytes": 6199
+    },
+    {
+      "id": "E10",
+      "file": "e10_runner_recovery.md",
+      "source_project_relative": "toolchain/diagnostics/runtime_file_api_20261019/README.md",
+      "sha256": "ab54c483acc337c3c2bdd87186aca08810cee58cdf83a152ab684aa47eb21d3f",
+      "bytes": 4035
+    },
+    {
+      "id": "E11",
+      "file": "e11_claw_fix.md",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/README.md",
+      "sha256": "354432cb7a440ed7326bfd42cc88bf8187e42f3cd276507d3970ad4c6edf5184",
+      "bytes": 6152
+    },
+    {
+      "id": "E12",
+      "file": "e12_timing.rpt",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/routed/timing.rpt",
+      "sha256": "bc615d86d03d67555f69929864d8ddbf5dd60fda642063b41306aaf54d95201c",
+      "bytes": 4289848
+    },
+    {
+      "id": "E13",
+      "file": "e13_check_timing.rpt",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/routed/check_timing.rpt",
+      "sha256": "375834c067de8c69f59dfe0bf31216cbfcbfc5ec7af04863f0d4a05d38059588",
+      "bytes": 3298
+    },
+    {
+      "id": "E14",
+      "file": "e14_drc.rpt",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/routed/drc.rpt",
+      "sha256": "0bac70c1caf4958eb6234782b685c29dbf1c3e0eb3ed1d216a4eabaa1a39b089",
+      "bytes": 90258
+    },
+    {
+      "id": "E15",
+      "file": "e15_utilization.rpt",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/routed/utilization.rpt",
+      "sha256": "a061671fa1112b4af673be109f53b16a60cd2c2136cb2aca1ced533bd5a5f7f2",
+      "bytes": 12429
+    },
+    {
+      "id": "E16",
+      "file": "e16_claw_sim.json",
+      "source_project_relative": "toolchain/diagnostics/claw_stall_fix_20261104/integrated_sim_01/result.json",
+      "sha256": "3b91ec56cea7d625f9c8f871527791b9d8c8d4891a5a607bcb6a1e7b1be4fb04",
+      "bytes": 4251
+    },
+    {
+      "id": "E17",
+      "file": "e17_cold_boot.json",
+      "source_project_relative": "toolchain/jobs/20261103_claw_stall_persistent_01/cold_boot_validation.json",
+      "sha256": "7fb89d09a971c54863c0ec322b736fe74eec19106f8f23f20e1e20f0e83cd5d2",
+      "bytes": 2409
+    },
+    {
+      "id": "E18",
+      "file": "e18_motion_protocol.md",
+      "source_project_relative": "1/1/ceshi/AUTOMATIC_CONTROL.md",
+      "sha256": "f486f4bd5c0578ade6d53fbc24978457afe497d527e648391f0645a5d3dc0283",
+      "bytes": 14693
+    },
+    {
+      "id": "E19",
+      "file": "e19_model_budget_notes.md",
+      "source_project_relative": "toolchain/vision_workbench/README.md",
+      "sha256": "122e504fc765586cf0024c64dc5156b040dd0b4bbbb8e261219d39dd4ec07b93",
+      "bytes": 29581
+    },
+    {
+      "id": "E20",
+      "file": "e20_toolchain_flow.md",
+      "source_project_relative": "toolchain/README.md",
+      "sha256": "3973ed9960a2ed0ca55a7c3ad37a5fd83bd824cfc442a328a2b890908a5252c2",
+      "bytes": 10948
+    },
+    {
+      "id": "E21",
+      "file": "e21_color_verification.json",
+      "source_project_relative": "toolchain/jobs/20261018_021715_hls_2cefcb0f/verification.json",
+      "sha256": "255f5d2468f25ff964ea12fbb97bf87718783011a681a3cb1f6132019d645212",
+      "bytes": 763
+    },
+    {
+      "id": "E22",
+      "file": "e22_color_host_test.log",
+      "source_project_relative": "toolchain/jobs/20261018_021715_hls_2cefcb0f/host_test.log",
+      "sha256": "5cd0231568442e61873bbffb978b0004f44065d56d24ff3e50600cd737b9cfdd",
+      "bytes": 815
+    }
+  ],
+  "scope": "Frozen source copies. A copied README is historical narrative; raw reports take precedence when they disagree."
+}

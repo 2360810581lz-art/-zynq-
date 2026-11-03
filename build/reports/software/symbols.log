@@ -1,0 +1,569 @@
+
+PIPE_COMMAND: D:\XILINX\SDK\2019.1\gnu\aarch32\nt\gcc-arm-none-eabi\bin\arm-none-eabi-nm.exe ['-S', '-n', 'D:\\312312\\FPGA\\toolchain\\jobs\\20261103_115407_camera_claw_experimental_jtag\\software\\live_overlay.elf']
+00000000 a SECT
+00000000 a shift
+00000000 a shift
+00000000 a UNDEF_REG
+00000001 a L2CCControl
+00000111 a L2CCTAGLatency
+00000121 a L2CCDataLatency
+000003ff a DDR_REG
+00000400 A _ABORT_STACK_SIZE
+00000400 A _FIQ_STACK_SIZE
+00000400 A _IRQ_STACK_SIZE
+00000400 A _UNDEF_STACK_SIZE
+00000800 A _SUPERVISOR_STACK_SIZE
+00001005 a CRValMmuCac
+00002000 A _HEAP_SIZE
+00002000 A _STACK_SIZE
+00002000 a CRValHiVectorAddr
+0000767b a SLCRlockKey
+0000df0d a SLCRUnlockKey
+00020202 a SLCRL2cRamConfig
+00100000 T _vector_table
+00100000 a DDR_START
+00100020 t IRQHandler
+00100060 t FIQHandler
+0010007c t FIQLoop
+001000a0 t Undefined
+001000bc t SVCHandler
+001000e0 t DataAbortHandler
+00100100 t PrefetchAbortHandler
+0010012c T _boot
+0010012c T _prestart
+0010013c t EndlessLoop0
+00100144 t CheckEFUSE
+0010017c t OKToRun
+00100324 t Sync
+001003c8 t invalidate_dcache
+001003dc t loop1
+00100418 t loop2
+0010041c t loop3
+00100438 t skip
+00100444 t finished
+001004dc t deregister_tm_clones
+00100500 t register_tm_clones
+0010052c t __do_global_dtors_aux
+0010055c t frame_dummy
+00100588 0000007c T DisplayStop
+00100604 00000234 T DisplayStart
+00100838 00000110 T DisplayInitialize
+00100948 0000004c T DisplaySetMode
+00100994 00000034 T DisplayChangeFrame
+001009c8 0000002c t ClkDivider.part.0
+001009f4 00000054 T ClkCountCalc
+00100a48 00000028 T ClkDivider
+00100a70 000000d0 T ClkFindReg
+00100b40 00000034 T ClkWriteReg
+00100b74 000000e4 T ClkFindParams
+00100c58 00000044 T ClkStart
+00100c9c 00000044 T ClkStop
+00100ce0 00000130 t transfer
+00100e10 0000002c T i2c_reg8_write
+00100e3c 00000068 T i2c_reg8_read
+00100ea4 00000030 T i2c_reg16_write
+00100ed4 0000005c T i2c_reg16_read_checked
+00100f30 00000024 T i2c_reg16_read
+00100f54 00000050 T i2c_init
+00100fa4 00000010 T ov5640_read
+00100fb4 00000068 T ov5640_write
+0010101c 00000060 t sensor_write_array
+0010107c 000001d0 T sensor_init
+00101250 00000078 t color_bars
+001012c8 0000002c t status_begin
+001012f4 0000003c t status_end
+00101330 00000068 t fail
+00101398 000000c8 t camera_complete
+00101460 00000354 t camera_wait_start
+001017b4 00000144 t publish
+001018f8 000000e4 t recover_camera
+001019dc 00000080 t prepare_edges
+00101a5c 000001ec t edge_support
+00101c48 0000015c t roi_shape_ok
+00101da4 00000100 t roi_visible
+00101ea4 00000070 t support_eligible
+00101f14 00000020 t shape_point_compare
+00101f34 000001bc t line
+001020f0 000000a8 t fill_rect
+00102198 00000028 t roi_candidate_ok
+001021c0 0000028c t fallback_segments.isra.1
+0010244c 00000050 t component_has.isra.2.part.3
+0010249c 00001da4 t components
+00104240 000000a8 t hex_glyph.part.6
+001042e8 00001a90 T LiveDetectState
+00105d78 00000038 T LiveDetect
+00105db0 000003bc T LiveDraw
+0010616c 0000036c T LiveStabilize
+001064d8 0000021c t morph
+001066f4 00000028 t compare_double
+0010671c 000000d0 t covariance
+001067ec 000004e8 t snap
+00106cd4 00000044 t median
+00106d18 0000058c t edge
+001072a4 0000046c t measured_quad
+00107710 00000348 t flood.constprop.3
+00107a58 00000350 t select_component
+00107da8 00000180 t closed_interior
+00107f28 0000006c T VisionBlackBorder_Defaults
+00107f94 00000028 T VisionBlackBorder_ScratchBytes
+00107fbc 00000fe4 T VisionBlackBorder_Detect
+00108fa0 00000020 T XAxiVdma_GetChannel
+00108fc0 00000358 T XAxiVdma_CfgInitialize
+00109318 00000030 T XAxiVdma_Reset
+00109348 0000002c T XAxiVdma_ResetNotDone
+00109374 00000038 T XAxiVdma_IsBusy
+001093ac 00000028 T XAxiVdma_CurrFrameStore
+001093d4 0000000c T XAxiVdma_GetVersion
+001093e0 00000038 T XAxiVdma_GetStatus
+00109418 00000080 T XAxiVdma_SetLineBufThreshold
+00109498 000000a4 T XAxiVdma_FsyncSrcSelect
+0010953c 000000d4 T XAxiVdma_GenLockSourceSelect
+00109610 00000084 T XAxiVdma_StartParking
+00109694 00000030 T XAxiVdma_StopParking
+001096c4 00000034 T XAxiVdma_StartFrmCntEnable
+001096f8 00000060 T XAxiVdma_SetBdAddrs
+00109758 0000001c T XAxiVdma_StartWriteFrame
+00109774 0000001c T XAxiVdma_StartReadFrame
+00109790 00000044 T XAxiVdma_DmaConfig
+001097d4 00000048 T XAxiVdma_DmaSetBufferAddr
+0010981c 00000040 T XAxiVdma_DmaStart
+0010985c 00000030 T XAxiVdma_DmaStop
+0010988c 00000030 T XAxiVdma_DmaRegisterDump
+001098bc 00000108 T XAxiVdma_SetFrameCounter
+001099c4 00000114 T XAxiVdma_GetFrameCounter
+00109ad8 00000078 T XAxiVdma_SetFrmStore
+00109b50 0000003c T XAxiVdma_GetFrmStore
+00109b8c 00000040 T XAxiVdma_GetDmaChannelErrors
+00109bcc 00000050 T XAxiVdma_ClearDmaChannelErrors
+00109c1c 00000350 t XAxiVdma_ChannelConfig.part.0
+00109f6c 000000c4 t XAxiVdma_ChannelStart.part.1
+0010a030 00000098 T XAxiVdma_ChannelInit
+0010a0c8 00000010 T XAxiVdma_ChannelResetNotDone
+0010a0d8 00000010 T XAxiVdma_ChannelReset
+0010a0e8 0000001c T XAxiVdma_ChannelIsRunning
+0010a104 00000020 T XAxiVdma_ChannelIsBusy
+0010a124 00000010 T XAxiVdma_ChannelErrors
+0010a134 00000014 T XAxiVdma_ClearChannelErrors
+0010a148 0000000c T XAxiVdma_ChannelGetStatus
+0010a154 00000034 T XAxiVdma_ChannelStartParking
+0010a188 00000014 T XAxiVdma_ChannelStopParking
+0010a19c 00000014 T XAxiVdma_ChannelStartFrmCntEnable
+0010a1b0 000000c0 T XAxiVdma_ChannelSetBdAddrs
+0010a270 00000018 T XAxiVdma_ChannelConfig
+0010a288 00000154 T XAxiVdma_ChannelSetBufferAddr
+0010a3dc 00000094 T XAxiVdma_ChannelStartTransfer
+0010a470 00000018 T XAxiVdma_ChannelStart
+0010a488 00000028 T XAxiVdma_ChannelStop
+0010a4b0 0000006c T XAxiVdma_ChannelRegisterDump
+0010a51c 00000060 T XAxiVdma_ChannelSetFrmCnt
+0010a57c 00000040 T XAxiVdma_ChannelGetFrmCnt
+0010a5bc 0000001c T XAxiVdma_ChannelEnableIntr
+0010a5d8 00000028 T XAxiVdma_ChannelDisableIntr
+0010a600 00000010 T XAxiVdma_ChannelGetPendingIntr
+0010a610 00000010 T XAxiVdma_ChannelIntrClear
+0010a620 00000010 T XAxiVdma_ChannelGetEnabledIntr
+0010a630 00000030 T XAxiVdma_LookupConfig
+0010a660 0000017c T XGpioPs_CfgInitialize
+0010a7dc 000000b4 T XGpioPs_Read
+0010a890 000000a8 T XGpioPs_Write
+0010a938 000000ac T XGpioPs_SetDirection
+0010a9e4 000000b8 T XGpioPs_GetDirection
+0010aa9c 000000ac T XGpioPs_SetOutputEnable
+0010ab48 000000b8 T XGpioPs_GetOutputEnable
+0010ac00 0000013c T XGpioPs_GetBankPin
+0010ad3c 000000e4 T XGpioPs_ReadPin
+0010ae20 00000100 T XGpioPs_WritePin
+0010af20 00000124 T XGpioPs_SetDirectionPin
+0010b044 000000e8 T XGpioPs_GetDirectionPin
+0010b12c 00000124 T XGpioPs_SetOutputEnablePin
+0010b250 000000e8 T XGpioPs_GetOutputEnablePin
+0010b338 0000001c T XGpioPs_LookupConfig
+0010b354 000000ac T XGpioPs_IntrEnable
+0010b400 000000dc T XGpioPs_IntrEnablePin
+0010b4dc 000000ac T XGpioPs_IntrDisable
+0010b588 000000dc T XGpioPs_IntrDisablePin
+0010b664 000000bc T XGpioPs_IntrGetEnabled
+0010b720 000000e8 T XGpioPs_IntrGetEnabledPin
+0010b808 000000b8 T XGpioPs_IntrGetStatus
+0010b8c0 000000e8 T XGpioPs_IntrGetStatusPin
+0010b9a8 000000ac T XGpioPs_IntrClear
+0010ba54 000000e0 T XGpioPs_IntrClearPin
+0010bb34 000000c8 T XGpioPs_SetIntrType
+0010bbfc 000000d4 T XGpioPs_GetIntrType
+0010bcd0 000001a0 T XGpioPs_SetIntrTypePin
+0010be70 0000010c T XGpioPs_GetIntrTypePin
+0010bf7c 000000a0 T XGpioPs_SetCallbackHandler
+0010c01c 000000e4 T XGpioPs_IntrHandler
+0010c100 00000028 T StubHandler
+0010c128 00000030 T XIicPs_LookupConfig
+0010c158 000000cc T XIicPs_GetOptions
+0010c224 000000f0 T XIicPs_SetOptions
+0010c314 000000e4 T XIicPs_ClearOptions
+0010c3f8 00000258 T XIicPs_SetSClk
+0010c650 000000a4 T XIicPs_GetSClk
+0010c6f4 00000028 t StubHandler
+0010c71c 00000010 T XIicPs_BusIsBusy
+0010c72c 000000a8 T XIicPs_Abort
+0010c7d4 00000098 T XIicPs_Reset
+0010c86c 000000b0 T XIicPs_CfgInitialize
+0010c91c 0000005c T TransmitFifoFill
+0010c978 0000005c T Xil_Assert
+0010c9d4 00000010 T Xil_AssertSetCallback
+0010c9e4 00000004 T XNullHandler
+0010c9e8 00000038 T Xil_DCacheInvalidateLine
+0010ca20 000000e8 T Xil_DCacheInvalidateRange
+0010cb08 0000004c T Xil_DCacheFlushLine
+0010cb54 00000054 T Xil_DCacheFlushRange
+0010cba8 00000038 T Xil_DCacheStoreLine
+0010cbe0 00000038 T Xil_ICacheInvalidateLine
+0010cc18 00000058 T Xil_ICacheInvalidateRange
+0010cc70 000000b4 T Xil_L1DCacheInvalidate
+0010cd24 00000020 T Xil_L1DCacheEnable
+0010cd44 00000018 T Xil_L1DCacheInvalidateLine
+0010cd5c 00000048 T Xil_L1DCacheInvalidateRange
+0010cda4 0000008c T Xil_L1DCacheFlush
+0010ce30 00000018 T Xil_L1DCacheDisable
+0010ce48 0000005c T Xil_DCacheFlush
+0010cea4 00000018 T Xil_L1DCacheFlushLine
+0010cebc 00000048 T Xil_L1DCacheFlushRange
+0010cf04 00000018 T Xil_L1DCacheStoreLine
+0010cf1c 0000001c T Xil_L1ICacheEnable
+0010cf38 0000001c T Xil_L1ICacheDisable
+0010cf54 00000018 T Xil_L1ICacheInvalidate
+0010cf6c 00000018 T Xil_L1ICacheInvalidateLine
+0010cf84 00000048 T Xil_L1ICacheInvalidateRange
+0010cfcc 00000074 T Xil_L2CacheDisable
+0010d040 0000001c T Xil_DCacheDisable
+0010d05c 00000024 T Xil_ICacheDisable
+0010d080 0000006c T Xil_L2CacheInvalidate
+0010d0ec 00000020 T Xil_DCacheInvalidate
+0010d10c 00000030 T Xil_ICacheInvalidate
+0010d13c 00000058 t Xil_L2CacheEnable.part.0
+0010d194 00000018 T Xil_L2CacheEnable
+0010d1ac 00000024 T Xil_DCacheEnable
+0010d1d0 00000030 T Xil_ICacheEnable
+0010d200 00000014 T Xil_L2CacheInvalidateLine
+0010d214 00000068 T Xil_L2CacheInvalidateRange
+0010d27c 00000044 T Xil_L2CacheFlush
+0010d2c0 00000018 T Xil_L2CacheFlushLine
+0010d2d8 00000068 T Xil_L2CacheFlushRange
+0010d340 00000014 T Xil_L2CacheStoreLine
+0010d354 00000004 T sleep
+0010d358 00000004 T usleep
+0010d35c 00000024 T XTime_SetTime
+0010d380 00000028 T XTime_GetTime
+0010d3a8 00000008 T XGetPlatform_Info
+0010d3b0 0000009c t getnum
+0010d44c 00000034 t padding.part.0
+0010d480 00000164 t outnum
+0010d5e4 0000049c T xil_printf
+0010da80 00000028 t StubErrCallBack
+0010daa8 00000028 t StubCallBack
+0010dad0 000000e0 T XVtc_CfgInitialize
+0010dbb0 00000084 T XVtc_EnableGenerator
+0010dc34 00000084 T XVtc_EnableDetector
+0010dcb8 00000084 T XVtc_Enable
+0010dd3c 00000084 T XVtc_DisableGenerator
+0010ddc0 00000084 T XVtc_DisableDetector
+0010de44 00000084 T XVtc_Disable
+0010dec8 000000fc T XVtc_SetPolarity
+0010dfc4 000000fc T XVtc_GetPolarity
+0010e0c0 000000fc T XVtc_GetDetectorPolarity
+0010e1bc 00000188 T XVtc_SetSource
+0010e344 0000018c T XVtc_GetSource
+0010e4d0 0000008c T XVtc_SetSkipLine
+0010e55c 000000b8 T XVtc_GetSkipLine
+0010e614 0000008c T XVtc_SetSkipPixel
+0010e6a0 000000b8 T XVtc_GetSkipPixel
+0010e758 00000110 T XVtc_SetDelay
+0010e868 000000d4 T XVtc_GetDelay
+0010e93c 000000f0 T XVtc_SetFSync
+0010ea2c 000000d8 T XVtc_GetFSync
+0010eb04 00000104 T XVtc_SetGeneratorHoriOffset
+0010ec08 000000ec T XVtc_GetGeneratorHoriOffset
+0010ecf4 000000ec T XVtc_GetDetectorHoriOffset
+0010ede0 000002a0 T XVtc_SetGenerator
+0010f080 00000258 T XVtc_GetGenerator
+0010f2d8 00000258 T XVtc_GetDetector
+0010f530 00000054 T XVtc_GetVersion
+0010f584 000005d0 T XVtc_ConvVideoMode2Timing
+0010fb54 00000294 T XVtc_ConvTiming2Signal
+0010fde8 000001f4 T XVtc_ConvSignal2Timing
+0010ffdc 0000020c T XVtc_ConvTiming2VideoMode
+001101e8 000000e0 T XVtc_SetGeneratorTiming
+001102c8 00000094 T XVtc_SetGeneratorVideoMode
+0011035c 000000ec T XVtc_GetGeneratorTiming
+00110448 0000009c T XVtc_GetGeneratorVideoMode
+001104e4 000000ec T XVtc_GetDetectorTiming
+001105d0 0000009c T XVtc_GetDetectorVideoMode
+0011066c 0000005c T XVtc_SelfTest
+001106c8 0000001c T XVtc_LookupConfig
+001106e4 00000044 T usleep_A9
+00110728 00000048 T sleep_A9
+00110770 00000010 T outbyte
+00110780 00000014 T FIQInterrupt
+00110794 00000014 T IRQInterrupt
+001107a8 00000014 T UndefinedException
+001107bc 00000014 T SWInterrupt
+001107d0 00000014 T DataAbortInterrupt
+001107e4 00000014 T PrefetchAbortInterrupt
+001107f8 00000004 t Xil_ExceptionNullHandler
+001107fc 00000004 T Xil_DataAbortHandler
+00110800 00000004 T Xil_PrefetchAbortHandler
+00110804 00000004 T Xil_UndefinedExceptionHandler
+00110808 00000004 T Xil_ExceptionInit
+0011080c 00000018 T Xil_ExceptionRegisterHandler
+00110824 00000020 T Xil_GetExceptionRegisterHandler
+00110844 00000024 T Xil_ExceptionRemoveHandler
+00110868 00000018 T XUartPs_SendByte
+00110880 0000001c T XUartPs_RecvByte
+0011089c 00000054 T XUartPs_ResetHw
+00110904 00000064 T _start
+00110968 T __cpu_init
+001109a8 t .udivsi3_skip_div0_test
+001109a8 T __aeabi_uidiv
+001109a8 0000025c T __udivsi3
+00110c04 0000001a T __aeabi_uidivmod
+00110c20 T __aeabi_idiv
+00110c20 00000294 T __divsi3
+00110c26 t .divsi3_skip_div0_test
+00110eb4 0000001a T __aeabi_idivmod
+00110ed0 00000002 W __aeabi_idiv0
+00110ed0 00000002 W __aeabi_ldiv0
+00110ed4 T __aeabi_ldivmod
+00110f74 T __aeabi_uldivmod
+00110fa4 00000116 T __udivmoddi4
+001110bc 00000020 T exit
+001110dc 00000030 T __libc_fini_array
+0011110c 00000050 T __libc_init_array
+0011115c 0000006c t currentlocale
+001111c8 00000680 T __loadlocale
+00111848 00000054 T __get_locale_env
+0011189c 00000244 T _setlocale_r
+00111ae0 00000020 T __locale_mb_cur_max
+00111b00 00000006 T __locale_ctype_ptr_l
+00111b08 00000020 T __locale_ctype_ptr
+00111b28 00000012 T setlocale
+00111b3c 00000026 T _mbtowc_r
+00111b64 00000024 T __ascii_mbtowc
+00111b88 00000208 T __utf8_mbtowc
+00111d90 00000082 T __sjis_mbtowc
+00111e14 000000b6 T __eucjp_mbtowc
+00111ecc 00000126 T __jis_mbtowc
+00112000 000005e0 T memcpy
+001125e0 000000a0 T memset
+00112680 000005b4 T qsort
+00112c34 00000044 T strcasecmp
+00112c78 00000040 T strcat
+00112cb8 000000e4 T strchr
+00112da8 000002dc T strcmp
+0011307c 000000c2 T strcpy
+00113140 00000056 T strlcpy
+001131c0 000000dc T strlen
+0011329c 0000005a T strncasecmp
+001132f8 000000a2 T strncmp
+0011339c 0000007e T strncpy
+0011341c 00000120 t _strtol_l.isra.0
+0011353c 00000028 T _strtol_r
+00113564 0000001e T strtol_l
+00113584 00000030 T strtol
+001135b4 00000026 T _wctomb_r
+001135dc 00000018 T __ascii_wctomb
+001135f4 000000a4 T __utf8_wctomb
+00113698 00000054 T __sjis_wctomb
+001136ec 00000070 T __eucjp_wctomb
+0011375c 00000082 T __jis_wctomb
+001137e0 000000dc T __call_exitprocs
+001138bc 0000000e T __set_ctype
+001138cc 00000088 T _findenv_r
+00113954 00000010 T _getenv_r
+00113964 00000002 T __env_lock
+00113968 00000002 T __env_unlock
+00113970 00000110 T ceil
+00113a80 0000003c T fmax
+00113abc 0000003c T fmin
+00113af8 0000005a T __fpclassifyd
+00113b54 00000004 T nearbyint
+00113b58 00000126 T rint
+00113c80 000000be T hypot
+00113d40 000000b8 T sqrt
+00113df8 000001f0 T __ieee754_hypot
+00113fe8 00000006 T __ieee754_sqrt
+00113ff0 00000010 T finite
+00114000 00000004 T matherr
+00114004 00000010 W __errno
+00114014 00000004 W _exit
+00114018 00000cb4 T main
+00114cd0 00000008 t __memset_from_arm
+00114cd8 T _init
+00114ce4 T _fini
+00114cf0 R __rodata_start
+00114cf0 00000070 r VMODE_1280x720
+00114d60 00000200 r lock_lookup
+00114f60 00000100 r filter_lookup_low
+00115060 00000018 r bgr.7101
+00115078 00000050 r glyph.6920
+001150c8 000000b4 r hue_best
+0011517c 00000018 r centers.6443
+00115194 00000018 r groups.6444
+001151ac 00000018 r limits.6445
+001151c4 00000020 r OptionsTable
+001151e4 00000004 R _global_impure_ptr
+001151e8 0000001c r categories
+00115204 0000016c R __C_locale
+00115370 00000048 r JIS_state_table
+001153b8 00000048 r JIS_action_table
+00115400 00000101 R _ctype_
+00115508 00000010 r TWO52
+00115974 R __rodata_end
+00115974 D __rodata1_end
+00115974 D __rodata1_start
+00115974 D __sbss2_end
+00115974 D __sbss2_start
+00115974 D __sdata2_end
+00115974 D __sdata2_start
+00115974 A _SDA2_BASE_
+00115978 D __data_start
+00115978 D __dso_handle
+0011597c 00000100 D sensor_init_data
+00115a7c 00000094 D cfg_702p_60fps
+00115b10 00000050 D cfg_advanced_awb
+00115b60 00000094 D cfg_1080p_30fps
+00115bf4 00000008 D XGpioPs_ConfigTable
+00115bfc 00000018 D XIicPs_ConfigTable
+00115c14 00000004 D Xil_AssertWait
+00115c18 00000100 D XAxiVdma_ConfigTable
+00115d18 00000038 D XExc_VectorTable
+00115d50 00000008 D XVtc_ConfigTable
+00115d58 00000004 D _impure_ptr
+00115d60 00000428 d impure_data
+00116188 0000016c D __global_locale
+001162f4 00000020 D __default_locale
+00116314 00000004 D environ
+00116318 00000001 D __fdlib_version
+00116319 D ___CTORS_END___
+00116319 D ___CTORS_LIST___
+00116319 D ___DTORS_END___
+00116319 D ___DTORS_LIST___
+00116319 D __CTOR_END__
+00116319 D __CTOR_LIST__
+00116319 D __data_end
+00116319 D __data1_end
+00116319 D __data1_start
+00116319 D __DTOR_END__
+00116319 D __DTOR_LIST__
+00116319 D __fixup_end
+00116319 D __fixup_start
+0011631c r 
+0011631c r __FRAME_END__
+0011631c D __TMC_END__
+00116320 R __eh_framehdr_end
+00116320 R __eh_framehdr_start
+00118000 R __mmu_tbl_start
+00118000 R MMUTable
+0011c000 R __exidx_start
+0011c000 R __mmu_tbl_end
+0011c008 R __exidx_end
+0011c008 t __frame_dummy_init_array_entry
+0011c008 T __init_array_start
+0011c008 T __preinit_array_end
+0011c008 T __preinit_array_start
+0011c00c t __do_global_dtors_aux_fini_array_entry
+0011c00c T __fini_array_start
+0011c00c T __init_array_end
+0011c010 N __ARM.attributes_start
+0011c010 T __fini_array_end
+0011c010 N __sbss_end
+0011c010 N __sbss_start
+0011c010 N __sdata_end
+0011c010 N __sdata_start
+0011c010 N __tbss_end
+0011c010 N __tbss_start
+0011c010 N __tdata_end
+0011c010 N __tdata_start
+0011c010 A _SDA_BASE_
+0011c040 B __bss_start
+0011c040 00000001 b completed.10177
+0011c044 00000018 b object.10182
+0011c080 00000024 b Gpio
+0011c0a4 0000003c b ps_i2c0
+0011c0e0 00000004 b camera_park_pending
+0011c100 00000980 b liveCameraDma
+0011ca80 00000004 b camera_index
+0011ca88 00000178 b dispCtrl
+0011cc00 00000980 b vdma
+0011d119 N __ARM.attributes_end
+0011d580 00000004 b recovery_count
+0011d584 0000000c b pFrames
+0011d590 00000008 b camera_generation
+0011d5c0 007e9000 b liveCameraBuffer
+009065c0 011cc400 b frameBuf
+01ad29c0 00002000 b shape_hull
+01ad49c0 00002000 b shape_points
+01ad69c0 00001400 b parts
+01ad7dc0 00038400 b labels
+01b101c0 000e1000 b queue
+01bf11c0 00038400 b temp
+01c295c0 00038400 b mask
+01c619c0 00722470 b border_work
+02383e30 000a8c00 b small
+0242ca30 00000004 b Xil_AssertCallbackRoutine
+0242ca34 000000e7 b global_locale_string
+0242cb1c 000000e0 b new_categories.6704
+0242cbfc 000000e0 b saved_categories.6705
+0242ccdc 00000004 B _PathLocale
+0242cce0 00000004 b initial_env
+0242cd00 0000010c B live_result
+0242ce10 00000048 B live_roi_before
+0242ce58 00000118 B live_boxes
+0242cf70 0000010c B live_shown
+0242d080 00000040 B live_command
+0242d0c0 00000118 B live_boxes_before
+0242d1d8 00005000 B live_box_trace
+02432200 00000090 B live_status
+02432290 00000048 B live_roi
+024322d8 00000004 B Xil_AssertStatus
+024322dc 00000004 B UndefinedExceptionAddr
+024322e0 00000004 B PrefetchAbortAddr
+024322e4 00000004 B DataAbortAddr
+024322e8 B __bss_end
+024322f0 B _heap
+024322f0 B _heap_start
+024322f0 B HeapBase
+024342f0 B _heap_end
+024342f0 B _stack_end
+024342f0 B HeapLimit
+024362f0 B __stack
+024362f0 B _irq_stack_end
+024362f0 B _stack
+024366f0 B __irq_stack
+024366f0 B _supervisor_stack_end
+02436ef0 B __supervisor_stack
+02436ef0 B _abort_stack_end
+024372f0 B __abort_stack
+024372f0 B _fiq_stack_end
+024376f0 B __fiq_stack
+024376f0 B _undef_stack_end
+02437af0 B __undef_stack
+02437af0 B _end
+0fffff00 a RESERVED
+3ff00000 a DDR_SIZE
+3fffffff a DDR_END
+40000000 a FPEXC_EN
+72360000 a L2CCAuxControl
+f8000000 a PSS_SLCR_BASE_ADDR
+f8000004 a SLCRlockReg
+f8000008 a SLCRUnlockReg
+f8000244 a SLCRCPURSTReg
+f8000a1c a SLCRL2cRamReg
+f800d010 a EFUSEStaus
+f8f02000 a PSS_L2CC_BASE_ADDR
+f8f02100 a L2CCCrtl
+f8f02104 a L2CCAuxCrtl
+f8f02108 a L2CCTAGLatReg
+f8f0210c a L2CCDataLatReg
+f8f0221c a L2CCIntRaw
+f8f02220 a L2CCIntClear
+f8f02730 a L2CCSync
+f8f0277c a L2CCWay
+fe00000f a LRemap

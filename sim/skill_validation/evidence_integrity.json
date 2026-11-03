@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "evidence_files": 22,
+  "dialogue_excerpts": 9,
+  "expanded_historical_messages": 77,
+  "expanded_cases": 26,
+  "issues": [],
+  "scope": "integrity against package indexes, not external authenticity proof"
+}

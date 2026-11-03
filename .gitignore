@@ -1,0 +1,22 @@
+# Local caches and editor settings.
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.Xil/
+.xil/
+*.jou
+*.tmp
+*.bak
+
+# Keep new build output outside the checked release.
+/.build_local/
+/package_check.json
+/skill_checks.json
+/trace_check.json
+/*.zip
+/*.rar

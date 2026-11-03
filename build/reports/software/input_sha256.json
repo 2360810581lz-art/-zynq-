@@ -1,0 +1,21 @@
+{
+  "live/detector.c": "355624d9a5fff07d5319b816b92378106d9dd68ac45839a5eaa974c8248fb6fa",
+  "live/detector.h": "3ea0e329eeb9c2d5c45d4acd2503fc11c06235cb9224c5bb0b6bf26c9cc43fa9",
+  "live/main.c": "a0f50446ecc179b9eef67711ff8e82c08504a846622e44b76021afaa5d376a6f",
+  "live/profile.h": "645c7e211f686bde16b89dfcad822e982ed3deaf9172483b71baa009143da070",
+  "ps/vision_black_border.c": "9bdb173c154fa3b1578399a6bc71f5045ac524844ae12022147eeb807cd25518",
+  "ps/vision_black_border.h": "29c7acda97547cb8a1012a9068e8b82d00abab58cfb7f9322bd6196687de1e46",
+  "ps/vision_frame_view.h": "4679aaa59cdc155fd92f92cd50fced3ef106a2f8d8885c17f63de6c372065591",
+  "src/display_demo.h": "9cc4ca4c08c78f5f4cd03e91501ff752d16facbea7dbb81215407f933f04a4a9",
+  "src/lscript.ld": "69e8abfa3916a99745e92bad55287a8f9e425779858213ebeaba779ad66e040e",
+  "src/ov5640.c": "471444da630cf9245335485274b28615b7b6787c4ffd6c3f0569325e4387a5de",
+  "src/ov5640.h": "fafa9f978d4f3bbef14e946564bea57b278e5027c50781c7683285e0b6c016c0",
+  "src/Xilinx.spec": "f100af82b444989adf5aad4ad612b9ae3b4ddac007f5d9653f1abf254235b085",
+  "src/display_ctrl/display_ctrl.c": "0345ee62dac10978bbad891d44514476bed9ed24b3d4ef8ca9a3ef5a2edf28aa",
+  "src/display_ctrl/display_ctrl.h": "95bd8eea8829a5ed3d40f169f6e127605426270916879e844f9b1405aeff7e8a",
+  "src/display_ctrl/vga_modes.h": "2780ff1af9abe88c16ec7783bfc003338769059b87ed75ff61cba2d884d5370b",
+  "src/dynclk/dynclk.c": "97450650ed4a85f660fac966763441dd4dc5a3b970cd0b1524ee5325be8a58fd",
+  "src/dynclk/dynclk.h": "f82450e10e7248b3d36a508eddce07d2df403115e3a555bc3943a0f447842eed",
+  "src/i2c/PS_i2c.c": "76688045e5f73b762129726b5e7af81161e59d5a53a9b0d47c2e67a757546ad0",
+  "src/i2c/PS_i2c.h": "d92c74bf970753f3245ceb51a074a131547eaab339ba2bda76e41faeb16a75f7"
+}

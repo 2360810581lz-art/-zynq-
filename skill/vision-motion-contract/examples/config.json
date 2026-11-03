@@ -1,0 +1,27 @@
+{
+  "units": "cm",
+  "origin_cm": [
+    8,
+    8
+  ],
+  "axis_signs": [
+    1,
+    -1
+  ],
+  "limits_cm": [
+    [
+      -5,
+      5
+    ],
+    [
+      -5,
+      5
+    ]
+  ],
+  "max_age_ms": 500,
+  "max_objects": 8,
+  "box_count": 6,
+  "routes": {
+    "red/cylinder": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "manual_coordinates",
+  "arm_coordinate_cm": {
+    "x": "0.00",
+    "y": "0.00"
+  },
+  "coordinate_command": "(0.00,0.00)",
+  "box": 1,
+  "drop_command": "1",
+  "mode": "execute_requested"
+}
+STATUS +0000000001 +0000000000 +0000000038 +0000000035 +0000000060 +0000000100
+0 OK
+1 OK
+Pick and drop acknowledged by FPGA.

@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-11-03T19:26:46.005441+00:00",
+  "source_session_files": 4,
+  "selected_windows": 38,
+  "historical_messages": 77,
+  "user_messages": 38,
+  "assistant_messages": 39,
+  "expanded_cases": 26,
+  "retained_earlier_excerpts": 9,
+  "source_lines_reloaded": true,
+  "no_fabricated_history": true,
+  "scope": "Selected messages, not complete sessions. Retrospectives and reconstructed templates are new analysis."
+}

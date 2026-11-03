@@ -1,0 +1,27 @@
+
+PIPE_COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261104_original_control_restore\\board_012248_481675\\board.tcl']
+TARGETS_BEFORE   1  APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020
+initializing  0%    0MB   0.0MB/s  ??:?? ETA 13%    0MB   0.6MB/s  ??:?? ETA 15%    0MB   0.4MB/s  ??:?? ETA 18%    0MB   0.3MB/s  ??:?? ETA 21%    0MB   0.2MB/s  ??:?? ETA 23%    0MB   0.2MB/s  ??:?? ETA 26%    0MB   0.2MB/s  00:08 ETA 29%    0MB   0.2MB/s  00:08 ETA 31%    0MB   0.2MB/s  00:09 ETA 34%    0MB   0.2MB/s  00:09 ETA 36%    0MB   0.2MB/s  00:08 ETA 39%    0MB   0.2MB/s  00:08 ETA 42%    1MB   0.2MB/s  00:08 ETA 44%    1MB   0.2MB/s  00:08 ETA 47%    1MB   0.2MB/s  00:08 ETA 50%    1MB   0.2MB/s  00:07 ETA 52%    1MB   0.1MB/s  00:07 ETA 55%    1MB   0.1MB/s  00:07 ETA 58%    1MB   0.1MB/s  00:06 ETA 60%    1MB   0.1MB/s  00:06 ETA 63%    1MB   0.1MB/s  00:06 ETA 65%    1MB   0.1MB/s  00:05 ETA 68%    1MB   0.1MB/s  00:05 ETA 71%    1MB   0.1MB/s  00:04 ETA 73%    1MB   0.1MB/s  00:04 ETA 76%    1MB   0.1MB/s  00:04 ETA 79%    1MB   0.1MB/s  00:03 ETA 81%    1MB   0.1MB/s  00:03 ETA 84%    2MB   0.1MB/s  00:02 ETA 87%    2MB   0.1MB/s  00:02 ETA 89%    2MB   0.1MB/s  00:01 ETA 92%    2MB   0.1MB/s  00:01 ETA 95%    2MB   0.1MB/s  00:00 ETA 97%    2MB   0.1MB/s  00:00 ETA100%    2MB   0.1MB/s  00:17    
+EXPERIMENT_FPGA_PROGRAMMED
+Downloading Program -- D:/312312/FPGA/toolchain/jobs/20261104_original_control_restore/software/live_overlay.elf
+	section, .text: 0x00100000 - 0x00114cd7
+	section, .init: 0x00114cd8 - 0x00114ce3
+	section, .fini: 0x00114ce4 - 0x00114cef
+	section, .rodata: 0x00114cf0 - 0x00115973
+	section, .data: 0x00115978 - 0x00116318
+	section, .eh_frame: 0x0011631c - 0x0011631f
+	section, .mmu_tbl: 0x00118000 - 0x0011bfff
+	section, .ARM.exidx: 0x0011c000 - 0x0011c007
+	section, .init_array: 0x0011c008 - 0x0011c00b
+	section, .fini_array: 0x0011c00c - 0x0011c00f
+	section, .bss: 0x0011c040 - 0x024322e7
+	section, .heap: 0x024322e8 - 0x024342ef
+	section, .stack: 0x024342f0 - 0x02437aef
+  0%    0MB   0.0MB/s  ??:?? ETA 28%    0MB   0.1MB/s  ??:?? ETA 57%    0MB   0.1MB/s  ??:?? ETA 85%    0MB   0.1MB/s  ??:?? ETA100%    0MB   0.1MB/s  00:01    
+Setting PC to Program Start Address 0x00100000
+Successfully downloaded D:/312312/FPGA/toolchain/jobs/20261104_original_control_restore/software/live_overlay.elf
+EXPERIMENT_APP_STARTED
+TOOLCHAIN_STATUS=SUCCESS

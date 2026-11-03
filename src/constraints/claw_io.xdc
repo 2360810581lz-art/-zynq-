@@ -1,0 +1,15 @@
+set_property PACKAGE_PIN R14 [get_ports motor1_tx]
+set_property PACKAGE_PIN P14 [get_ports motor1_rx]
+set_property PACKAGE_PIN U15 [get_ports motor2_tx]
+set_property PACKAGE_PIN U14 [get_ports motor2_rx]
+set_property PACKAGE_PIN P19 [get_ports gripper_pwm]
+set_property PACKAGE_PIN N18 [get_ports base_pwm]
+set_property PACKAGE_PIN T15 [get_ports pc_rx]
+set_property PACKAGE_PIN T14 [get_ports pc_tx]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {motor1_tx motor1_rx motor2_tx motor2_rx gripper_pwm base_pwm pc_rx pc_tx}]
+set_property SLEW SLOW [get_ports {motor1_tx motor2_tx gripper_pwm base_pwm pc_tx}]
+set_property DRIVE 8 [get_ports {motor1_tx motor2_tx gripper_pwm base_pwm pc_tx}]
+set_property PULLUP true [get_ports {motor1_rx motor2_rx pc_rx}]
+
+set_false_path -from [get_ports {motor1_rx motor2_rx pc_rx}] -to [get_cells -hier -filter {NAME =~ */rx_meta_reg}]

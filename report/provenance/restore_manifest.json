@@ -1,0 +1,70 @@
+{
+  "created": "2026-11-04T01:19:13.533445+08:00",
+  "scope": "Restore exact 2026-11-03 successful integrated control and HDMI overlay",
+  "source_release": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_115407_camera_claw_experimental_jtag",
+  "inputs_sha256": {
+    "camera_claw_top.bit": "5bc6a285133f9bc8adf57095756ff0c416779d40649cfeba19b3c8b2aa581dc9",
+    "camera_claw_top.hdf": "3726c7f4c1c5fa17e9a911dd6b38bb8bd119c364222528de9156c4874059ff0e",
+    "software/live_overlay.elf": "247e0eb21c467712f39565189e900cc6ac020a1fb6119c5f33741229d785b752",
+    "software/fsbl_2019.elf": "fec18475f575c5179d4a2b852a7820cf3c798cf5c347a4a66513adbf6c41e16a"
+  },
+  "boot_sha256": "cc6d671f43d8161463eed6ab54174265b617a7d417a9f97241ba6dbf7a711cbc",
+  "original_control_rtl_sha256": {
+    "automatic_coordinates.vh": "a08213591452055929a19d3c59a9a6fe191c126610b5bb902ed7d9ca69603bc4",
+    "automation_parser.v": "b45025838cccf2162c3c74a0dfdefae43524d31f808832af39ba79054edb7b71",
+    "claw_controller.v": "f7c71b5a1b257c27583436bae5db557e6a2579e7e0b8e127f85b6c5366f4b809",
+    "command_parser.v": "6073a7e0a615aa327475a284bc3621e884f4a2c781924aa28ca0b3a46f9867d0",
+    "coordinate_defaults.vh": "ea048d820dc39104c6b02811d04c26303c7348aaf8d5606a9066216739049822",
+    "coordinate_mapper.v": "b00c48add3857246c507ad7c50f1401c870de683cb7592867f6788e2b02a7f7b",
+    "emm_link.v": "e893bcaa7540337fa9fe3a7b1dddd1d616430ae067d21e2eccbb34223cb000e5",
+    "serial_report.v": "125a7da0e7557c71d3ca117097f3f9e42a81487ab4f3a8dfff1d2a5d50fd5ff0",
+    "servo_pwm.v": "a8cd2ed795174da680bc30ab2a73c425858e4f7cadaa2ad88b658f17bf5b5fb0",
+    "top_claw.v": "bdd7a6339681420f5df8ebe5bbd504915b81624322f41c4441208b3707a813e7",
+    "uart_rx.v": "4a541ab6fbf6f5ab6bab272795518286ce26e9e682a71177dc2efaaaf0e27474",
+    "uart_tx.v": "25c8a375bc5b68e437f709022d70fca1e5af42ebfac94ab5b63e0c9268f69bb6"
+  },
+  "hardware_verified": false,
+  "physical_grasp_verified": false,
+  "cold_boot_verified": false,
+  "SD_or_flash_written": true,
+  "timing_closed": false,
+  "timing_note": "Preserved previously authorized hardware baseline; camera setup -0.247ns / hold -1.111ns",
+  "uart": {
+    "app": "UART1",
+    "fsbl": "UART0"
+  },
+  "previous_flash_backup": {
+    "file": "previous_flash_readback.bin",
+    "sha256": "1b704ca34c53f024b50d7b85fb5f2e1531ad157c4e30f763b82e0893e5180179",
+    "bytes": 2781184,
+    "evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\sdk_commit_20261104_001912_490339\\status.json",
+    "scope": "Full readback from immediately preceding verified deployment, not a fresh read today"
+  },
+  "baseline_evidence": [
+    "manual_pick_0_0_box1.log",
+    "manual_pick_0_0_box1_repeat_20261103_175643.log"
+  ],
+  "flash_full_readback_verified": true,
+  "flash_deployment": "D:\\312312\\FPGA\\toolchain\\jobs\\20261104_original_control_restore\\sdk_commit_20261104_012024_603418\\status.json",
+  "flash_method": "SDK 2019.1 XQspiPs staged helper",
+  "recorded_at": "2026-11-04T01:24:43.194178+08:00",
+  "active_integrated_sources_restored": true,
+  "source_restore_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261104_original_control_restore\\source_restore.json",
+  "runtime_loaded_via_jtag": true,
+  "runtime_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261104_original_control_restore\\board_012248_481675\\status.json",
+  "live_frames_advancing": true,
+  "runtime_objects": [
+    0,
+    0
+  ],
+  "runtime_roi_modes": [
+    0,
+    0
+  ],
+  "serial_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261104_original_control_restore\\serial_probe_012333_859146\\status.json",
+  "serial_opened": true,
+  "serial_status_responded": false,
+  "physical_hdmi_verified": false,
+  "motion_commands_sent": false,
+  "remaining_validation": "Physical power cycle and HDMI confirmation; serial STATUS has no received bytes; physical grasp not retested."
+}

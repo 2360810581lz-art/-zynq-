@@ -1,0 +1,9 @@
+{
+  "state": "succeeded",
+  "pixel_mismatches": 0,
+  "actual_ARM_matches_host": true,
+  "actual_ARM_ROI_state_matches_host": true,
+  "detector_ms": 47,
+  "processing_display_ms": 151,
+  "acquire_ms": 60
+}

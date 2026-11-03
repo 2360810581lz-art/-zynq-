@@ -1,0 +1,24 @@
+{
+  "record_type": "new_template_not_historical_dialogue",
+  "case_id": "填写实际ID",
+  "user_goal": "原文或明确标为摘要",
+  "prompt_source": {
+    "file": "实际文件或缺失",
+    "line": null,
+    "timestamp_utc": null
+  },
+  "model_context": "实际turn_context或未知",
+  "model_hypothesis": "可被证伪的判断",
+  "action": "实际执行命令或建议",
+  "evidence_ids": [],
+  "observation": "实测或工具输出",
+  "correction": {
+    "earlier_claim": "原结论",
+    "counter_evidence": "反证",
+    "revised_claim": "修正结论",
+    "retest": "复测记录"
+  },
+  "verified_scope": "验证范围",
+  "not_verified": "未覆盖项",
+  "reusable_rule": "提炼方法"
+}

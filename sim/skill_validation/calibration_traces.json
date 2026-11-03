@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "motion_traces_equal": true,
+  "variants": {
+    "original_calibrated": {
+      "assertions": 354,
+      "motor_packets": 183,
+      "servo_targets": 5760,
+      "trace_events": 5943
+    },
+    "known_good_integrated": {
+      "assertions": 354,
+      "motor_packets": 183,
+      "servo_targets": 5760,
+      "trace_events": 5943
+    },
+    "current_integrated": {
+      "assertions": 354,
+      "motor_packets": 183,
+      "servo_targets": 5760,
+      "trace_events": 5943
+    }
+  },
+  "issues": [],
+  "hardware_access": false,
+  "scope": "decoded commands and servo targets; timestamps ignored"
+}

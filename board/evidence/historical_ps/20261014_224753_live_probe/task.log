@@ -1,0 +1,12 @@
+
+COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261014_224753_live_probe\\runtime_identity.tcl']
+TOOLCHAIN_STATUS=SUCCESS
+
+COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261014_224753_live_probe\\samples.tcl']
+TOOLCHAIN_STATUS=SUCCESS
+
+COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261014_224753_live_probe\\vdma_profile.tcl']
+TOOLCHAIN_STATUS=SUCCESS
+
+COMMAND: D:/XILINX/SDK/2019.1/bin/xsct.bat ['D:\\312312\\FPGA\\toolchain\\jobs\\20261014_224753_live_probe\\final.tcl']
+TOOLCHAIN_STATUS=SUCCESS

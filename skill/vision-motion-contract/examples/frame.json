@@ -1,0 +1,21 @@
+{
+  "units": "cm",
+  "generation": 7,
+  "age_ms": 100,
+  "status": 0,
+  "overflow": false,
+  "roi_valid": true,
+  "objects": [
+    {
+      "generation": 7,
+      "valid": true,
+      "clipped": false,
+      "center_cm": [
+        9.25,
+        10.5
+      ],
+      "color": "red",
+      "shape": "cylinder"
+    }
+  ]
+}

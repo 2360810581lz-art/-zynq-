@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-11-04T00:32:49.548286+08:00",
+  "physical_power_cycle_confirmed_by_user": true,
+  "user_report": "已重新上电，画面和框正常",
+  "cold_boot_verified": true,
+  "cold_boot_scope": "QSPI startup, matching application .text and live HDMI object overlay; excludes physical arm grasp validation",
+  "boot_mode": 1,
+  "flash_full_readback_verified": true,
+  "boot_sha256": "1a2fe1a6a6c7ed55dcacd9177838bd8d715073e6a35209d3a96923c8cc20835a",
+  "runtime_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\observe_002915\\status.json",
+  "frames": [
+    2363,
+    2386
+  ],
+  "objects": [
+    5,
+    5
+  ],
+  "runtime_stage": 2,
+  "error_stages": [
+    0,
+    0
+  ],
+  "observation_did_not_reset_or_download": true,
+  "validation_script_correction": "deploy.py expected paused snapshot stage 3; corrected to continuous runtime stage 2 based on frozen software/inputs/live/main.c. Prior observe_002530 receipt retained unchanged.",
+  "control_query_verified": false,
+  "physical_grasp_verified": false,
+  "motion_commands_sent": false,
+  "serial_port": "COM12",
+  "serial_status": "No received bytes after USB/wire reseat; Python and .NET agree. Passive SAMPLE observed T15 input and T14 activity. Adapter BREAK confirms TXD reaches T15. Awaiting adapter loopback test.",
+  "serial_evidence": [
+    "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\serial_probe_003024_401989\\status.json",
+    "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\serial_receive_003057_548748\\status.json",
+    "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\serial_dotnet_003141_443019\\status.json",
+    "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\uart_traffic_002852_807664\\status.json",
+    "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\uart_boundary_003111_749766\\status.json"
+  ],
+  "clock_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\cold_boot_clocks_retry.log",
+  "clock_check": "IO PLL multiply 30, FPGA0 divide 5*2, matching 100 MHz control clock with 33.333333 MHz PS reference; PLL_STATUS=0x3f",
+  "qspi_system_reset_verified": false,
+  "failed_reset_evidence": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_claw_stall_persistent_01\\reset_002029\\status.json"
+}

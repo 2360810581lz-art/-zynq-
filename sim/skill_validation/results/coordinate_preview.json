@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "mode": "offline_preview",
+  "issues": [],
+  "candidates": [
+    {
+      "object_index": 0,
+      "generation": 7,
+      "x_cm": "1.25",
+      "y_cm": "-2.50",
+      "box": 2,
+      "consumes_frame": true
+    }
+  ],
+  "execution_policy": "select one candidate; after completed pick/drop obtain a new frame; never execute this snapshot as a moving-scene batch",
+  "hardware_access": false,
+  "encoding_resolution_cm": 0.01,
+  "position_accuracy": "not measured"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "compared_values": 11,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "atol": 0,
+  "rtol": 0,
+  "scope": "output equivalence only; not recognition accuracy or board performance"
+}

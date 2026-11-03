@@ -1,0 +1,69 @@
+{
+  "hardware_access": false,
+  "mapping_modified": false,
+  "variants": {
+    "original_calibrated": {
+      "rtl_sha256": {
+        "automatic_coordinates.vh": "a08213591452055929a19d3c59a9a6fe191c126610b5bb902ed7d9ca69603bc4",
+        "automation_parser.v": "b45025838cccf2162c3c74a0dfdefae43524d31f808832af39ba79054edb7b71",
+        "claw_controller.v": "f7c71b5a1b257c27583436bae5db557e6a2579e7e0b8e127f85b6c5366f4b809",
+        "command_parser.v": "6073a7e0a615aa327475a284bc3621e884f4a2c781924aa28ca0b3a46f9867d0",
+        "coordinate_defaults.vh": "ea048d820dc39104c6b02811d04c26303c7348aaf8d5606a9066216739049822",
+        "coordinate_mapper.v": "f4d073cc9294a6b45f375ca870a0b37429f53ee250859cfefae69c4761b52886",
+        "emm_link.v": "e893bcaa7540337fa9fe3a7b1dddd1d616430ae067d21e2eccbb34223cb000e5",
+        "serial_report.v": "125a7da0e7557c71d3ca117097f3f9e42a81487ab4f3a8dfff1d2a5d50fd5ff0",
+        "servo_pwm.v": "a566696b3902a5c70351bc576ea72e1597ca2024e24eb14c90d1030006381eba",
+        "top_claw.v": "bdd7a6339681420f5df8ebe5bbd504915b81624322f41c4441208b3707a813e7",
+        "uart_rx.v": "4a541ab6fbf6f5ab6bab272795518286ce26e9e682a71177dc2efaaaf0e27474",
+        "uart_tx.v": "25c8a375bc5b68e437f709022d70fca1e5af42ebfac94ab5b63e0c9268f69bb6"
+      },
+      "assertions": 354,
+      "trace_events": 5943,
+      "motor_packets": 183,
+      "servo_targets": 5760
+    },
+    "known_good_integrated": {
+      "rtl_sha256": {
+        "automatic_coordinates.vh": "a08213591452055929a19d3c59a9a6fe191c126610b5bb902ed7d9ca69603bc4",
+        "automation_parser.v": "b45025838cccf2162c3c74a0dfdefae43524d31f808832af39ba79054edb7b71",
+        "claw_controller.v": "f7c71b5a1b257c27583436bae5db557e6a2579e7e0b8e127f85b6c5366f4b809",
+        "command_parser.v": "6073a7e0a615aa327475a284bc3621e884f4a2c781924aa28ca0b3a46f9867d0",
+        "coordinate_defaults.vh": "ea048d820dc39104c6b02811d04c26303c7348aaf8d5606a9066216739049822",
+        "coordinate_mapper.v": "b00c48add3857246c507ad7c50f1401c870de683cb7592867f6788e2b02a7f7b",
+        "emm_link.v": "e893bcaa7540337fa9fe3a7b1dddd1d616430ae067d21e2eccbb34223cb000e5",
+        "serial_report.v": "125a7da0e7557c71d3ca117097f3f9e42a81487ab4f3a8dfff1d2a5d50fd5ff0",
+        "servo_pwm.v": "a8cd2ed795174da680bc30ab2a73c425858e4f7cadaa2ad88b658f17bf5b5fb0",
+        "top_claw.v": "bdd7a6339681420f5df8ebe5bbd504915b81624322f41c4441208b3707a813e7",
+        "uart_rx.v": "4a541ab6fbf6f5ab6bab272795518286ce26e9e682a71177dc2efaaaf0e27474",
+        "uart_tx.v": "25c8a375bc5b68e437f709022d70fca1e5af42ebfac94ab5b63e0c9268f69bb6"
+      },
+      "assertions": 354,
+      "trace_events": 5943,
+      "motor_packets": 183,
+      "servo_targets": 5760
+    },
+    "current_integrated": {
+      "rtl_sha256": {
+        "automatic_coordinates.vh": "a08213591452055929a19d3c59a9a6fe191c126610b5bb902ed7d9ca69603bc4",
+        "automation_parser.v": "b45025838cccf2162c3c74a0dfdefae43524d31f808832af39ba79054edb7b71",
+        "claw_controller.v": "84f4a3df3db6cc61bf18f8abda3fd6071857e028fce37e8f9bbe52ed92d1ebb2",
+        "command_parser.v": "e84d176601900b8ae9024365fd9993752c3d6a5db1d5fd345ce4ae9756fe6aea",
+        "coordinate_defaults.vh": "ea048d820dc39104c6b02811d04c26303c7348aaf8d5606a9066216739049822",
+        "coordinate_mapper.v": "b00c48add3857246c507ad7c50f1401c870de683cb7592867f6788e2b02a7f7b",
+        "emm_link.v": "5c46fe27d64fa61c297f66000193973bfb79ce90b04e2f5503d2420bc85ad632",
+        "pc_report_mux.v": "a2da95bf1a31fdeeb75715a40922a66d973b2bdb31fd6924dcbcc875f7c7e0dd",
+        "serial_report.v": "125a7da0e7557c71d3ca117097f3f9e42a81487ab4f3a8dfff1d2a5d50fd5ff0",
+        "servo_pwm.v": "a8cd2ed795174da680bc30ab2a73c425858e4f7cadaa2ad88b658f17bf5b5fb0",
+        "top_claw.v": "bdd7a6339681420f5df8ebe5bbd504915b81624322f41c4441208b3707a813e7",
+        "uart_rx.v": "4a541ab6fbf6f5ab6bab272795518286ce26e9e682a71177dc2efaaaf0e27474",
+        "uart_tx.v": "25c8a375bc5b68e437f709022d70fca1e5af42ebfac94ab5b63e0c9268f69bb6"
+      },
+      "assertions": 354,
+      "trace_events": 5943,
+      "motor_packets": 183,
+      "servo_targets": 5760
+    }
+  },
+  "passed": true,
+  "motion_traces_equal": true
+}

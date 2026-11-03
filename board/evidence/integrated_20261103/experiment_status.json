@@ -1,0 +1,341 @@
+{
+  "state": "reloaded_runtime_observed",
+  "created": "2026-11-03T11:54:07.683461+08:00",
+  "authorization": "User said 再试试 after experimental temporary JTAG request; no SD write.",
+  "scope": "Existing HDMI boxes plus original manual USB-TTL arm controller",
+  "production_release": false,
+  "timing_closed": false,
+  "hardware_verified": false,
+  "hardware_programmed": true,
+  "sd_updated": false,
+  "baseline_verified_files": 337,
+  "baseline_manifest_sha256": "a869ab1d4eda5868acf1479771b039487961571510414f92b3b1e54796ec2c23",
+  "routed_dcp_sha256": "b21cf917339e315df573fe14ddb246918f01d6a0708d3478692dcedaabd38259",
+  "known_timing": {
+    "setup": {
+      "worst_slack_ns": -0.247,
+      "total_negative_slack_ns": -0.481,
+      "failing_endpoints": 2,
+      "total_endpoints": 67491
+    },
+    "hold": {
+      "worst_slack_ns": -1.111,
+      "total_negative_slack_ns": -2.208,
+      "failing_endpoints": 2,
+      "total_endpoints": 67238
+    },
+    "pulse_width": {
+      "worst_slack_ns": 0.264,
+      "total_negative_slack_ns": 0.0,
+      "failing_endpoints": 0,
+      "total_endpoints": 28394
+    }
+  },
+  "known_cdc": {
+    "CDC-3": {
+      "severity": "Info",
+      "count": 95
+    },
+    "CDC-6": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "CDC-7": {
+      "severity": "Critical",
+      "count": 2
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 8
+    },
+    "CDC-10": {
+      "severity": "Critical",
+      "count": 3
+    },
+    "CDC-11": {
+      "severity": "Critical",
+      "count": 2
+    },
+    "CDC-15": {
+      "severity": "Warning",
+      "count": 61
+    }
+  },
+  "project_refresh_flags": "Reopened project reported NEEDS_REFRESH=1; export uses hash-verified frozen DCP, no flags cleared.",
+  "artifacts": {
+    "camera_claw_top_routed.dcp": {
+      "bytes": 22328226,
+      "sha256": "b21cf917339e315df573fe14ddb246918f01d6a0708d3478692dcedaabd38259"
+    },
+    "camera_claw_top.bit": {
+      "bytes": 2482473,
+      "sha256": "5bc6a285133f9bc8adf57095756ff0c416779d40649cfeba19b3c8b2aa581dc9"
+    },
+    "camera_claw_top.hwdef": {
+      "bytes": 462279,
+      "sha256": "48187007174dbbe77d80346fc244a72e55c55a7849b1259c2efc84e5be60756f"
+    },
+    "camera_claw_top.hdf": {
+      "bytes": 1291494,
+      "sha256": "3726c7f4c1c5fa17e9a911dd6b38bb8bd119c364222528de9156c4874059ff0e"
+    },
+    "route.rpt": {
+      "bytes": 651,
+      "sha256": "94e2e399e4d1c02494553b453bfcb89d8e46aacfdb1200ff40f3f920d68d3757"
+    },
+    "timing.rpt": {
+      "bytes": 164170,
+      "sha256": "3548712aff79bf79fc0eb0852493b69812fe77791b9fcbc024952d5740d75522"
+    },
+    "drc.rpt": {
+      "bytes": 90353,
+      "sha256": "c3021044f03e61adf18f3b0c65c797b6c8567ba464c5377aeda0dab736ffdc45"
+    },
+    "export_experiment.tcl": {
+      "bytes": 1529,
+      "sha256": "be2c1c311e96f62ec339202758bce1cb6e454fbcd3f5c43349d2375ae92c706d"
+    }
+  },
+  "bit_in_hdf_verified": true,
+  "latest_board_check": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_115407_camera_claw_experimental_jtag\\board_230039_976459\\status.json",
+  "vision_runtime_verified": true,
+  "display_buffer_boxes_verified": true,
+  "physical_hdmi_verified": false,
+  "serial_control_verified": false,
+  "grab_place_verified": false,
+  "display_capture": "display_120815_922577/status.json",
+  "display_png_sha256": "d866ad9fd4c4749d992d85b5c08706036d3bb0bc139645fd340d9ed4582e18ff",
+  "last_stable_vision_frames": [
+    0,
+    1
+  ],
+  "serial_pending_reason": "Access denied opening COM13; likely exclusive ownership by another application.",
+  "next_step": "Manual serial control may continue; place the full black border in view for the HDMI object overlay.",
+  "integration_state": "reloaded_camera_running_roi_not_locked_serial_not_checked",
+  "previous_serial_port_owner": {
+    "process_name": "vofa+",
+    "pid": 40612,
+    "device": "\\Device\\Serial2",
+    "port": "COM12",
+    "evidence": "D:/312312/FPGA/toolchain/diagnostics/camera_claw_board_20261103/serial_owner_latest.json"
+  },
+  "previous_blocked_audit": {
+    "same_blocker_consecutive_goal_turns": 3,
+    "condition": "Exclusive COM12 ownership prevents controller query and physical grab/place verification.",
+    "turns": [
+      "Combined JTAG run: camera verified, COM12 denied access.",
+      "Continuation: read-only handle inspection identified live VOFA+ owner; access still denied.",
+      "Current continuation: fresh open denied; live owner and serial handle confirmed again."
+    ],
+    "required_external_change": "Disconnect COM12 in VOFA+, or provide its STATUS reply and perform the manual test there.",
+    "independent_work_completed": "Combined bit/HDF/BSP/ELF built and loaded, HDMI output buffer boxes inspected, frame processing resumed and advancing; original sources preserved.",
+    "completion_unproven": [
+      "Physical HDMI observation",
+      "Serial STATUS reply",
+      "Actual user-selected grab/place cycle"
+    ],
+    "further_safe_independent_work": false,
+    "historical_only": true,
+    "resolved_by": "COM13 serial recovery and user-confirmed physical pick/place cycles on 2026-11-03."
+  },
+  "physical_hdmi_evidence": "User confirmed first cycle: 物体已放入1号盒，HDMI画框正常; latest read-only JTAG check shows advancing frames and valid ROI.",
+  "serial_status_reply_verified": false,
+  "serial_stability_verified": false,
+  "serial_access_blocker_resolved": true,
+  "serial_status_values": {
+    "ready": 1,
+    "coordinate_valid_mask": 0,
+    "base_degrees": 45,
+    "gripper_degrees": 35,
+    "speed_rpm": 60,
+    "acceleration": 100
+  },
+  "serial_status_reply_evidence": "serial_link_175243_499202/status.json",
+  "serial_receive_check": "serial_receive_215958_952556/status.json",
+  "serial_boundary_evidence": "uart_traffic_174655_409540/status.json",
+  "latest_vision_evidence": "board_230039_976459/status.json",
+  "goal_status": "complete",
+  "updated": "2026-11-03T23:00:58.294901+08:00",
+  "serial_port": "COM13",
+  "previous_uart_return_blocked_audit": {
+    "same_blocker_consecutive_goal_turns": 3,
+    "condition": "COM12 opens, but repeated STATUS receives no bytes; waiting for the requested physical RXD/GND connection check.",
+    "previous_turn_classification": "no progress; fresh serial queries confirmed the same blocker and did not change the required next action",
+    "current_revalidation": "2026-11-03 15:55: COM12 open successful; 8 STATUS queries, zero receive bytes, no Windows receive errors. No physical wiring adjustment has been reported.",
+    "required_external_change": "User reports RXD/GND reseated or replaced; if still failing, adapter loopback or replacement is needed.",
+    "goal_completion_unproven": [
+      "Stable serial replies",
+      "Motor DIAG/READ communication",
+      "User-selected physical pick and place while HDMI boxes remain"
+    ],
+    "historical_only": true,
+    "resolved_by": "COM13 serial recovery and user-confirmed physical pick/place cycles on 2026-11-03."
+  },
+  "uart_return_followup": {
+    "user_wiring_check_confirmed": true,
+    "current_attempt": 3,
+    "adapter_loopback_started": false,
+    "previous_goal_turn_classification": "Resolved: .NET 5/5 and Python 8/8 plus 8/8 STATUS; driver queries and two pick/drop cycles passed.",
+    "current_revalidation": "COM13 command acknowledgements and physical placement confirmed twice; no automatic retries.",
+    "independent_work": "Evidence recorded; no further motion, programming or wiring changes required.",
+    "adapter_loopback_required": false
+  },
+  "hardware_verification_scope": "Current JTAG reload: matching bit/ELF programmed and started; camera entered runtime and processed first frame. ROI not locked; no serial query or motion sent.",
+  "serial_stability_evidence": [
+    "serial_dotnet_175141_331130/status.json",
+    "serial_receive_175219_643459/status.json",
+    "serial_receive_175229_515704/status.json"
+  ],
+  "serial_driver_query_evidence": "serial_link_175243_499202/status.json",
+  "serial_stability_scope": "21 consecutive successful STATUS replies across .NET and Python comparisons; intermittent receive failure root cause remains undetermined.",
+  "manual_pick_cycles": [
+    {
+      "coordinate_cm": [
+        0,
+        0
+      ],
+      "box": 1,
+      "port": "COM13",
+      "log": "manual_pick_0_0_box1.log",
+      "acknowledgements": [
+        "0 OK",
+        "1 OK"
+      ],
+      "exit_code": 0,
+      "physical_pick_place_verified": true,
+      "physical_hdmi_verified": true,
+      "user_confirmation": "物体已放入1号盒，HDMI画框正常"
+    },
+    {
+      "coordinate_cm": [
+        0,
+        0
+      ],
+      "box": 1,
+      "port": "COM13",
+      "log": "manual_pick_0_0_box1_repeat_20261103_175643.log",
+      "acknowledgements": [
+        "0 OK",
+        "1 OK"
+      ],
+      "exit_code": 0,
+      "physical_pick_place_verified": true,
+      "physical_hdmi_verified": true,
+      "user_confirmation": "命令正确放置，现在告诉我应该怎样发送命令"
+    }
+  ],
+  "serial_port_released": true,
+  "previous_functional_verification": {
+    "hardware_verified": true,
+    "grab_place_verified": true,
+    "physical_hdmi_verified": true,
+    "evidence": "manual_pick_cycles: two user-confirmed cycles before this reload"
+  },
+  "reload_history": [
+    {
+      "requested_by_user": "再下载程序",
+      "program_evidence": "board_215915_718086/status.json",
+      "observation_evidence": "board_215958_957555/status.json",
+      "serial_evidence": "serial_receive_215958_952556/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        12,
+        13
+      ],
+      "runtime_roi_valid": false,
+      "serial_port": "COM13",
+      "serial_check_blocked_by": "Access denied opening COM13; likely exclusive ownership by another application.",
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "production_release": false,
+      "finished": "2026-11-03T22:00:03.193333+08:00"
+    },
+    {
+      "program_evidence": "board_222613_018346/status.json",
+      "observation_evidence": "board_222641_920574/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        3,
+        5
+      ],
+      "runtime_roi_valid": false,
+      "serial_checked": false,
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T22:26:46.074592+08:00"
+    },
+    {
+      "attempt_evidence": [
+        "board_223351_636089/status.json",
+        "board_223522_174313/status.json"
+      ],
+      "hardware_programmed": false,
+      "app_started": false,
+      "host_hw_server_restarted": true,
+      "error": "No JTAG silicon targets found before or after restarting hw_server. USB download adapter is present.",
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T22:35:55.910635+08:00"
+    },
+    {
+      "program_evidence": "board_223646_650479/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        2,
+        3
+      ],
+      "runtime_roi_valid": false,
+      "serial_checked": false,
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T22:37:04.983013+08:00"
+    },
+    {
+      "program_evidence": "board_223827_168993/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        1,
+        2
+      ],
+      "runtime_roi_valid": false,
+      "serial_checked": false,
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T22:38:45.395217+08:00"
+    },
+    {
+      "program_evidence": "board_225145_695086/status.json",
+      "observation_evidence": "board_225209_648052/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        3,
+        4
+      ],
+      "runtime_roi_valid": false,
+      "serial_checked": false,
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T22:52:13.965150+08:00"
+    },
+    {
+      "program_evidence": "board_230039_976459/status.json",
+      "hardware_programmed": true,
+      "app_started": true,
+      "frames": [
+        0,
+        1
+      ],
+      "runtime_roi_valid": false,
+      "serial_checked": false,
+      "motion_commands_sent": false,
+      "sd_updated": false,
+      "finished": "2026-11-03T23:00:58.294901+08:00"
+    }
+  ],
+  "runtime_roi_valid": false
+}

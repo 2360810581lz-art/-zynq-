@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "syntax_and_help:build/build_software.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:build/pack_boot.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:build/run_tool.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:board/prepare_jtag.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:sim/verify_package.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:sim/calibration/check_traces.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "syntax_and_help:sim/calibration/run_xsim.py",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "prepare_jtag_without_execution",
+      "passed": true,
+      "returncode": 0
+    },
+    {
+      "name": "launcher_success_and_marker",
+      "passed": true
+    },
+    {
+      "name": "launcher_nonzero_exit",
+      "passed": true,
+      "reason": "Tool failed; inspect D:\\312312\\FPGA\\toolchain\\deliverables\\competition_final_20261104\\audit\\entry_checks\\launcher_nonzero_exit\\task.log"
+    },
+    {
+      "name": "launcher_missing_marker",
+      "passed": true,
+      "reason": "Tool failed; inspect D:\\312312\\FPGA\\toolchain\\deliverables\\competition_final_20261104\\audit\\entry_checks\\launcher_missing_marker\\task.log"
+    },
+    {
+      "name": "launcher_stale_marker_rejected",
+      "passed": true,
+      "reason": "Tool failed; inspect D:\\312312\\FPGA\\toolchain\\deliverables\\competition_final_20261104\\audit\\entry_checks\\python_success\\task.log"
+    },
+    {
+      "name": "launcher_timeout",
+      "passed": true,
+      "reason": "Tool timed out; owned process stopped"
+    },
+    {
+      "name": "launcher_timeout_is_bounded",
+      "passed": true
+    },
+    {
+      "name": "launcher_cmd_with_space",
+      "passed": true
+    },
+    {
+      "name": "launcher_cmd_nonzero",
+      "passed": true,
+      "reason": "Tool failed; inspect D:\\312312\\FPGA\\toolchain\\deliverables\\competition_final_20261104\\audit\\entry_checks\\batch_failure\\task.log"
+    }
+  ],
+  "hardware_access": false,
+  "native_xilinx_started": false,
+  "scope": "Python syntax, CLI help, HDF-only script preparation and dummy process behavior"
+}

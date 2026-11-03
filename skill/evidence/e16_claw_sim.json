@@ -1,0 +1,129 @@
+{
+  "hardware_access": false,
+  "state": "passed",
+  "cases": [
+    {
+      "top": "tb_stall_recovery",
+      "mode": 1,
+      "passed": true,
+      "assertions": 12
+    },
+    {
+      "top": "tb_stall_recovery",
+      "mode": 2,
+      "passed": true,
+      "assertions": 10
+    },
+    {
+      "top": "tb_stall_recovery",
+      "mode": 3,
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "top": "tb_stall_recovery",
+      "mode": 4,
+      "passed": true,
+      "assertions": 15
+    },
+    {
+      "top": "tb_stall_recovery",
+      "mode": 5,
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "top": "tb_stall_recovery",
+      "mode": 6,
+      "passed": true,
+      "assertions": 12
+    },
+    {
+      "top": "tb_link_recovery",
+      "mode": null,
+      "passed": true,
+      "assertions": 18
+    },
+    {
+      "top": "tb_link_recovery_50mhz",
+      "mode": null,
+      "passed": true,
+      "assertions": 18
+    },
+    {
+      "top": "tb_coordinate_mapper",
+      "mode": null,
+      "passed": true,
+      "assertions": 16
+    },
+    {
+      "top": "tb_automatic",
+      "mode": null,
+      "passed": true,
+      "assertions": 377
+    },
+    {
+      "top": "tb_claw",
+      "mode": null,
+      "passed": true,
+      "assertions": 173
+    },
+    {
+      "top": "tb_timing",
+      "mode": null,
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "top": "tb_motor2_startup",
+      "mode": null,
+      "passed": true,
+      "assertions": 71
+    },
+    {
+      "top": "tb_top_boot",
+      "mode": null,
+      "passed": true,
+      "assertions": 8
+    },
+    {
+      "top": "tb_startup_timer",
+      "mode": null,
+      "passed": true,
+      "assertions": 5
+    },
+    {
+      "top": "tb_home_motion",
+      "mode": null,
+      "passed": true,
+      "assertions": 46
+    }
+  ],
+  "sha256": {
+    "automatic_coordinates.vh": "a08213591452055929a19d3c59a9a6fe191c126610b5bb902ed7d9ca69603bc4",
+    "automation_parser.v": "b45025838cccf2162c3c74a0dfdefae43524d31f808832af39ba79054edb7b71",
+    "claw_controller.v": "84f4a3df3db6cc61bf18f8abda3fd6071857e028fce37e8f9bbe52ed92d1ebb2",
+    "command_parser.v": "e84d176601900b8ae9024365fd9993752c3d6a5db1d5fd345ce4ae9756fe6aea",
+    "coordinate_defaults.vh": "ea048d820dc39104c6b02811d04c26303c7348aaf8d5606a9066216739049822",
+    "coordinate_mapper.v": "b00c48add3857246c507ad7c50f1401c870de683cb7592867f6788e2b02a7f7b",
+    "emm_link.v": "5c46fe27d64fa61c297f66000193973bfb79ce90b04e2f5503d2420bc85ad632",
+    "motor_model.v": "a9db6bb51ecf2a0ea11a56fe3f479ece863baaa5bd39bb5ff856f2dacdf62c0b",
+    "pc_report_mux.v": "a2da95bf1a31fdeeb75715a40922a66d973b2bdb31fd6924dcbcc875f7c7e0dd",
+    "serial_report.v": "125a7da0e7557c71d3ca117097f3f9e42a81487ab4f3a8dfff1d2a5d50fd5ff0",
+    "servo_pwm.v": "a8cd2ed795174da680bc30ab2a73c425858e4f7cadaa2ad88b658f17bf5b5fb0",
+    "tb_automatic.v": "5afb3e9870208b3a14a00bbf8bcc9a3591fe983b3101262242f4242fb7b17b5e",
+    "tb_claw.v": "f68685293052c021408ccea0497b9341e4866805f874d7a5ecce8ac3638c2d60",
+    "tb_coordinate_mapper.v": "31baf35170e6c75c132ac9c4e096f535221b8c20d4d32f345c99a21870fc0cca",
+    "tb_home_motion.v": "036749bf749a0713e69f435075eebb7fa64df30fad131b0f2a9d42d0837e447b",
+    "tb_link_recovery.v": "d7a3f19138f95caa831a0acbaed238b7eeb393ebad92ee7a531ee7bab7bc01ef",
+    "tb_link_recovery_50mhz.v": "1783f5e168717a6eeb5b757b49c396b414281983fb12b166449f2f74b4d68ba8",
+    "tb_motor2_startup.v": "e93e5d2ee6f7923068dd239fd11dfd660fba45480c3a0977a3dc273162f777e8",
+    "tb_stall_recovery.v": "8b990f34cee62021259c356493892da61c04c920c10611dc2459f2074cd8f514",
+    "tb_startup_timer.v": "81248574b34a3d85474686f665ba6991ae290dcdd0f03a8164df0b2ac6e0bcaa",
+    "tb_timing.v": "28c29131f535ad9b0448723688cffe409e1713451e17fea0ac817898baa2667e",
+    "tb_top_boot.v": "f4c5d9bf91ec49bb2ca77c90bdad6c0832ca7f6962ac220ab4e983ab2d016a9b",
+    "top_claw.v": "bdd7a6339681420f5df8ebe5bbd504915b81624322f41c4441208b3707a813e7",
+    "uart_rx.v": "4a541ab6fbf6f5ab6bab272795518286ce26e9e682a71177dc2efaaaf0e27474",
+    "uart_tx.v": "25c8a375bc5b68e437f709022d70fca1e5af42ebfac94ab5b63e0c9268f69bb6"
+  }
+}

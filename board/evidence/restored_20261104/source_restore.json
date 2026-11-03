@@ -1,0 +1,22 @@
+{
+  "restored": true,
+  "changed": [
+    {
+      "file": "D:\\312312\\FPGA\\toolchain\\workspaces\\camera_claw_candidate_20261102\\control\\rtl\\claw_controller.v",
+      "before": "84f4a3df3db6cc61bf18f8abda3fd6071857e028fce37e8f9bbe52ed92d1ebb2",
+      "after": "f7c71b5a1b257c27583436bae5db557e6a2579e7e0b8e127f85b6c5366f4b809"
+    },
+    {
+      "file": "D:\\312312\\FPGA\\toolchain\\workspaces\\camera_claw_candidate_20261102\\control\\rtl\\command_parser.v",
+      "before": "e84d176601900b8ae9024365fd9993752c3d6a5db1d5fd345ce4ae9756fe6aea",
+      "after": "6073a7e0a615aa327475a284bc3621e884f4a2c781924aa28ca0b3a46f9867d0"
+    },
+    {
+      "file": "D:\\312312\\FPGA\\toolchain\\workspaces\\camera_claw_candidate_20261102\\control\\rtl\\emm_link.v",
+      "before": "5c46fe27d64fa61c297f66000193973bfb79ce90b04e2f5503d2420bc85ad632",
+      "after": "e893bcaa7540337fa9fe3a7b1dddd1d616430ae067d21e2eccbb34223cb000e5"
+    }
+  ],
+  "restored_at": "2026-11-04T01:22:48.003079+08:00",
+  "note": "pc_report_mux.v remains uninstantiated; original controller uses serial_report directly"
+}

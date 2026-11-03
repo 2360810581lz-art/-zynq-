@@ -1,0 +1,27 @@
+{
+  "state": "failed",
+  "integrated": false,
+  "hardware_verified": false,
+  "csim_bfs_oracle_pass": true,
+  "rtl_cosim_pass": false,
+  "hls_estimates": {
+    "pixel_loops": [
+      {
+        "report": "p_anonymous_namespace_3_csynth.xml",
+        "loop": "L_pixels",
+        "ii": 1
+      }
+    ],
+    "estimated_ns": "8.571",
+    "resources": {
+      "BRAM_18K": "27",
+      "DSP48E": "23",
+      "FF": "3428",
+      "LUT": "3578",
+      "URAM": "0"
+    },
+    "worst_cycles": "undef"
+  },
+  "frozen_inputs_unchanged": true,
+  "job": "D:\\312312\\FPGA\\toolchain\\jobs\\20261017_184221_hls_681de8cd"
+}

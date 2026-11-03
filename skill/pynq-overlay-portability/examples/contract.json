@@ -1,0 +1,12 @@
+{
+  "required_ips": {
+    "accel_0": {
+      "vlnv": "example.org:hls:add:1.0",
+      "registers": {
+        "CTRL": "0x00",
+        "length": "0x10"
+      }
+    }
+  },
+  "fixture_only": true
+}

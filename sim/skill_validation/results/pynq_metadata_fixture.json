@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "issues": [],
+  "sha256": {
+    "bit": "3c8de5fc6bf3244d071f2f0b0e3d472825ef5aed00dd3da519b11d54e99fb298",
+    "hwh": "2f377c733599886e43b703754084fee896637b51f08ab904f15aa8431178eac2"
+  },
+  "ips": {
+    "accel_0": {
+      "vlnv": "example.org:hls:add:1.0",
+      "registers": {
+        "CTRL": 0,
+        "length": 16
+      }
+    }
+  },
+  "hardware_access": false,
+  "board_verified": false,
+  "scope": "metadata contract only; matching names do not prove paired build, device fit, clocking, DMA or electrical compatibility"
+}

@@ -1,0 +1,24 @@
+{
+  "state": "succeeded",
+  "elf_sha256": "ede37c72b389991dab8d04193a57286d2cb7c0a30471db385fe681250ab2fa8e",
+  "sections": [
+    {
+      "address": 1048576,
+      "bytes": 81688,
+      "sha256": "5ff25ced4132c31859fdd05e7c2a9d5348aba22f8c8f1a6f23fba1c6d7c69871"
+    },
+    {
+      "address": 1130264,
+      "bytes": 12,
+      "sha256": "cd2a3d6d55cc695e84bbfa8517cc6ca0c2f328c3b6ebfa39a8e149765857aae6"
+    },
+    {
+      "address": 1130276,
+      "bytes": 12,
+      "sha256": "cd2a3d6d55cc695e84bbfa8517cc6ca0c2f328c3b6ebfa39a8e149765857aae6"
+    }
+  ],
+  "executable_bytes": 81712,
+  "read_only": true,
+  "scope": "JTAG executable-memory identity; no independent PL bitstream identity or physical HDMI observation"
+}

@@ -1,0 +1,345 @@
+{
+  "state": "succeeded",
+  "started": "2026-10-14T22:47:53.679572",
+  "runner_sha256": "df8b60012df1bf7bf0c3a04d025a111a1c782a03a5def43fd67013df127fda1d",
+  "build_dir": "D:\\312312\\FPGA\\toolchain\\jobs\\20261013_180257_live_overlay",
+  "samples": 24,
+  "edge_triggered": false,
+  "count_histogram": {
+    "4": 24
+  },
+  "captures": [
+    {
+      "directory": "D:\\312312\\FPGA\\toolchain\\jobs\\20261014_224753_live_probe\\frame_00",
+      "frame": 15653,
+      "count": 4,
+      "replay": {
+        "state": "succeeded",
+        "ARM_readback_checksums_match": true,
+        "pixel_mismatches": 0,
+        "actual_ARM_matches_host": true,
+        "result": {
+          "status": 0,
+          "valid": 1,
+          "count": 4,
+          "roi": [
+            342,
+            80,
+            946,
+            76,
+            931,
+            658,
+            349,
+            649
+          ],
+          "overflow": 0,
+          "objects": [
+            {
+              "bbox": [
+                390,
+                92,
+                577,
+                265
+              ],
+              "center": [
+                483,
+                178
+              ],
+              "match_error": 0
+            },
+            {
+              "bbox": [
+                712,
+                172,
+                901,
+                355
+              ],
+              "center": [
+                806,
+                263
+              ],
+              "match_error": 0
+            },
+            {
+              "bbox": [
+                378,
+                402,
+                557,
+                571
+              ],
+              "center": [
+                467,
+                486
+              ],
+              "match_error": 0
+            },
+            {
+              "bbox": [
+                670,
+                428,
+                857,
+                637
+              ],
+              "center": [
+                763,
+                532
+              ],
+              "match_error": 0
+            }
+          ],
+          "result_cleared": false,
+          "roi_state": {
+            "locked": 1,
+            "misses": 0,
+            "mode": 2,
+            "reserved": 0,
+            "roi": [
+              342,
+              80,
+              946,
+              76,
+              931,
+              658,
+              349,
+              649
+            ],
+            "generation": 15653,
+            "now_ms": 1892818,
+            "last_good_ms": 1892818
+          }
+        },
+        "actual_ARM_ROI_state_matches_host": true,
+        "box_integrity": {
+          "passed": true,
+          "overflow_absent": true,
+          "roi_convex_and_in_frame": true,
+          "boxes_in_frame_with_center_in_roi": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "duplicate_boxes_absent": true,
+          "boundary_ground_truth_available": false
+        },
+        "actual_ARM_shown_boxes_match_host": true,
+        "actual_ARM_box_state_matches_host": true,
+        "shown_objects": [
+          {
+            "bbox": [
+              392,
+              90,
+              579,
+              265
+            ],
+            "center": [
+              485,
+              177
+            ]
+          },
+          {
+            "bbox": [
+              712,
+              170,
+              901,
+              355
+            ],
+            "center": [
+              806,
+              262
+            ]
+          },
+          {
+            "bbox": [
+              378,
+              402,
+              557,
+              569
+            ],
+            "center": [
+              467,
+              485
+            ]
+          },
+          {
+            "bbox": [
+              670,
+              430,
+              857,
+              637
+            ],
+            "center": [
+              763,
+              533
+            ]
+          }
+        ],
+        "raw_black_border_support": {
+          "passed": true,
+          "sides": [
+            {
+              "side": "top",
+              "support": 1.0,
+              "longest_gap_fraction": 0.0,
+              "passed": true
+            },
+            {
+              "side": "right",
+              "support": 0.8811475409836066,
+              "longest_gap_fraction": 0.045081967213114756,
+              "passed": true
+            },
+            {
+              "side": "bottom",
+              "support": 1.0,
+              "longest_gap_fraction": 0.0,
+              "passed": true
+            },
+            {
+              "side": "left",
+              "support": 1.0,
+              "longest_gap_fraction": 0.0,
+              "passed": true
+            }
+          ],
+          "radius_px": 24,
+          "dark_max_channel": 140,
+          "minimum_support": 0.8,
+          "maximum_gap_fraction": 0.15,
+          "scope": "Raw tape evidence within 24px; side ends excluded by 8%. No contour accuracy or HDMI PHY claim."
+        },
+        "raw_reflective_border_support": {
+          "passed": true,
+          "sides": [
+            {
+              "side": "top",
+              "hits": 438,
+              "total": 508,
+              "support": 0.8622047244094488,
+              "longest_gap": 52,
+              "longest_gap_fraction": 0.10236220472440945,
+              "clipped": false,
+              "passed": true
+            },
+            {
+              "side": "right",
+              "hits": 393,
+              "total": 490,
+              "support": 0.8020408163265306,
+              "longest_gap": 36,
+              "longest_gap_fraction": 0.07346938775510205,
+              "clipped": false,
+              "passed": true
+            },
+            {
+              "side": "bottom",
+              "hits": 490,
+              "total": 490,
+              "support": 1.0,
+              "longest_gap": 0,
+              "longest_gap_fraction": 0.0,
+              "clipped": false,
+              "passed": true
+            },
+            {
+              "side": "left",
+              "hits": 479,
+              "total": 479,
+              "support": 1.0,
+              "longest_gap": 0,
+              "longest_gap_fraction": 0.0,
+              "clipped": false,
+              "passed": true
+            }
+          ],
+          "radius_px": 16,
+          "dark_luma": 150,
+          "luma_bgr_weights": [
+            3735,
+            19235,
+            9798
+          ],
+          "luma_rounding": 16384,
+          "luma_shift": 15,
+          "minimum_dark_run": 3,
+          "minimum_support": 0.8,
+          "maximum_gap_fraction": 0.12,
+          "endpoint_exclusion_fraction": 0.08,
+          "maximum_opposite_squared_length_ratio": 1.25,
+          "scope": "Independent raw-image finite tape evidence; no contour or HDMI PHY claim.",
+          "geometry": {
+            "in_frame": true,
+            "clockwise_convex": true,
+            "squared_side_lengths": [
+              364832,
+              338949,
+              338805,
+              323810
+            ],
+            "opposite_side_ratio_ok": true,
+            "passed": true
+          }
+        },
+        "raw_border_evidence_passed": true,
+        "expected_count": null,
+        "count_matches": true,
+        "diagnostic": true,
+        "replay_fidelity": true,
+        "camera_sha256": "9fbd1c9ce6af88a0c5b39d934e6f4ab2639fed62736147b71bd5836a9a9f2131",
+        "display_sha256": "eb569009c15aa83c9a601f86eda583de245e613cbdcf563cd001a7b24e76c479",
+        "roi_before_sha256": "98c2eef4dbd0478aee217a90737efd8ff176dfb2a5d386231544b6c82c7da8a5",
+        "detector_ms": 47,
+        "processing_display_ms": 151,
+        "acquire_ms": 60,
+        "source_hash_ms": 24,
+        "draw_flush_ms": 13,
+        "publish_ms": 40,
+        "retired_hash_ms": 27,
+        "scope": "Actual held camera frame and pre-call timed ROI state replayed by portable C; all displayed DDR pixels checked. Does not observe HDMI PHY, prove reader release or establish physical contour/shape accuracy."
+      }
+    }
+  ],
+  "final_words": [
+    1279874629,
+    2,
+    15692,
+    4,
+    1,
+    15692,
+    0,
+    47,
+    21904832,
+    5316032,
+    2,
+    69632,
+    69632,
+    37914368,
+    0,
+    75,
+    25,
+    1917589,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4138976513,
+    2,
+    0,
+    0,
+    13,
+    15,
+    0,
+    31384,
+    0,
+    1917561,
+    0,
+    1
+  ],
+  "live_application_left_running": true,
+  "runtime_executable_identity_verified": true,
+  "vdma_profile_verified": true,
+  "scope": "Readback of unchanged running CPU overlay; physical HDMI panel not observed",
+  "finished": "2026-10-14T22:48:37.540865"
+}

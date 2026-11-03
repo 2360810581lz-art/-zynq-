@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-11-03T20:11:58.622971+00:00",
+  "passed": true,
+  "scope": "package preparation offline checks; historical implementation and board evidence are not new measurements",
+  "skill_tests": 48,
+  "replay_cases": 7,
+  "expected_rejections": 2,
+  "evidence_files": 22,
+  "historical_messages": 77,
+  "collaboration_cases": 26,
+  "build_entry_checks": 16,
+  "motion_variants": 3,
+  "motion_assertions_each": 354,
+  "motion_events_each": 5943,
+  "motion_mutation_correctly_rejected": true,
+  "document_visual_review": {
+    "design_report_pages": 16,
+    "collaboration_pages": 28,
+    "all_pages_inspected": true
+  },
+  "hardware_access": false,
+  "native_xilinx_started": false
+}

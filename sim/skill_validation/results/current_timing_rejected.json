@@ -1,0 +1,71 @@
+{
+  "passed": false,
+  "metrics": {
+    "timing": {
+      "wns_ns": -0.247,
+      "tns_ns": -0.481,
+      "setup_failing": 2.0,
+      "setup_total": 69990.0,
+      "whs_ns": -1.111,
+      "ths_ns": -2.208,
+      "hold_failing": 2.0,
+      "hold_total": 69737.0,
+      "wpws_ns": 0.264,
+      "tpws_ns": 0.0,
+      "pulse_failing": 0.0,
+      "pulse_total": 29236.0
+    },
+    "coverage": {
+      "no_clock": 0,
+      "unconstrained_internal": 0,
+      "no_input_delay": 6,
+      "no_output_delay": 9
+    },
+    "drc": {
+      "Error": 0,
+      "Critical Warning": 0,
+      "Warning": 76,
+      "Advisory": 2
+    },
+    "utilization": {
+      "lut": {
+        "used": 21857.0,
+        "available": 53200.0,
+        "ratio": 0.4108458646616541
+      },
+      "ff": {
+        "used": 28372.0,
+        "available": 106400.0,
+        "ratio": 0.26665413533834587
+      },
+      "bram36_tiles": {
+        "used": 22.0,
+        "available": 140.0,
+        "ratio": 0.15714285714285714
+      },
+      "dsp": {
+        "used": 54.0,
+        "available": 220.0,
+        "ratio": 0.24545454545454545
+      }
+    }
+  },
+  "issues": [
+    "wns_ns=-0.247",
+    "tns_ns=-0.481",
+    "setup_failing=2.0",
+    "whs_ns=-1.111",
+    "ths_ns=-2.208",
+    "hold_failing=2.0",
+    "no_input_delay=6; review constraints against hardware",
+    "no_output_delay=9; review constraints against hardware"
+  ],
+  "full_signoff": false,
+  "scope": "report screening only; CDC, exceptions, I/O timing model and board tests require separate review",
+  "input_sha256": {
+    "e12_timing.rpt": "bc615d86d03d67555f69929864d8ddbf5dd60fda642063b41306aaf54d95201c",
+    "e13_check_timing.rpt": "375834c067de8c69f59dfe0bf31216cbfcbfc5ec7af04863f0d4a05d38059588",
+    "e14_drc.rpt": "0bac70c1caf4958eb6234782b685c29dbf1c3e0eb3ed1d216a4eabaa1a39b089",
+    "e15_utilization.rpt": "a061671fa1112b4af673be109f53b16a60cd2c2136cb2aca1ced533bd5a5f7f2"
+  }
+}

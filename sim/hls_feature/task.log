@@ -1,0 +1,358 @@
+
+COMMAND: D:/XILINX/Vivado/2019.1/bin/vivado_hls.bat ['-f', 'D:\\312312\\FPGA\\camera_base_2019_1_fixed\\hls\\vision_feature_accel\\run.tcl']
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/XILINX/Vivado/2019.1/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running 'D:/XILINX/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'LZFY' on host 'desktop-sa4v8j2' (Windows NT_amd64 version 6.2) on Sat Oct 03 18:35:51 +0800 2026
+INFO: [HLS 200-10] In directory 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b'
+Sourcing Tcl script 'D:\312312\FPGA\camera_base_2019_1_fixed\hls\vision_feature_accel\run.tcl'
+INFO: [HLS 200-10] Creating and opening project 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b/vision_feature_accel_hls'.
+INFO: [HLS 200-10] Adding design file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/tb/test_vision_feature_accel.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/background.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/blue_cube_atomic_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/blue_cube_center_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/blue_cube_lower_right_dynamic_roi_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/blue_cube_upper_left_rotated_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/green_triangular_prism_atomic_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/green_triangular_prism_atomic_02.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/green_triangular_prism_center_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/green_triangular_prism_lower_left_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/green_triangular_prism_upper_left_dynamic_roi_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/orange_cylinder_atomic_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/orange_cylinder_center_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/orange_cylinder_lower_left_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/orange_cylinder_right_dynamic_roi_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/red_cylinder_atomic_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/red_cylinder_center_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/red_cylinder_lower_left_dynamic_roi_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/red_cylinder_upper_right_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/yellow_pentagonal_prism_atomic_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/yellow_pentagonal_prism_bottom_dynamic_roi_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/yellow_pentagonal_prism_center_01.ppm' to the project
+INFO: [HLS 200-10] Adding test bench file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/testdata/yellow_pentagonal_prism_lower_right_01.ppm' to the project
+INFO: [HLS 200-10] Creating and opening solution 'D:/312312/FPGA/toolchain/jobs/20261003_183550_hls_b2ec6c6b/vision_feature_accel_hls/solution1'.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-2'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/tb/test_vision_feature_accel.cpp in debug mode
+   Compiling ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp in debug mode
+   Generating csim.exe
+In file included from D:/XILINX/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/XILINX/Vivado/2019.1/include/hls_fpo.h:186,
+                 from D:/XILINX/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/XILINX/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/XILINX/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/XILINX/Vivado/2019.1/include/ap_int.h:54,
+                 from D:/XILINX/Vivado/2019.1/include/ap_axi_sdata.h:86,
+                 from D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.h:4,
+                 from ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/tb/test_vision_feature_accel.cpp:1:
+D:/XILINX/Vivado/2019.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/XILINX/Vivado/2019.1/include/hls_fpo.h:186:0,
+                 from D:/XILINX/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/XILINX/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/XILINX/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/XILINX/Vivado/2019.1/include/ap_int.h:54,
+                 from D:/XILINX/Vivado/2019.1/include/ap_axi_sdata.h:86,
+                 from D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.h:4,
+                 from ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/tb/test_vision_feature_accel.cpp:1:
+D:/XILINX/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/XILINX/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/XILINX/Vivado/2019.1/include/hls_fpo.h:186,
+                 from D:/XILINX/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/XILINX/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/XILINX/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/XILINX/Vivado/2019.1/include/ap_int.h:54,
+                 from D:/XILINX/Vivado/2019.1/include/ap_axi_sdata.h:86,
+                 from D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.h:4,
+                 from ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:1:
+D:/XILINX/Vivado/2019.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/XILINX/Vivado/2019.1/include/hls_fpo.h:186:0,
+                 from D:/XILINX/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/XILINX/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/XILINX/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/XILINX/Vivado/2019.1/include/ap_int.h:54,
+                 from D:/XILINX/Vivado/2019.1/include/ap_axi_sdata.h:86,
+                 from D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.h:4,
+                 from ../../../../../../../camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:1:
+D:/XILINX/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+background.ppm detected=0 area=144 center=(0,0) bbox=(0,0)-(0,0) hue=0 color=0 shape=0 class=0 fill_q8=0 compactness_q12=0 inertia_q20=0 variance=0
+blue_cube_center_01.ppm detected=1 area=33567 center=(672,344) bbox=(582,251)-(762,436) hue=112 color=5 shape=4 class=84 fill_q8=255 compactness_q12=3 inertia_q20=190638 variance=344
+red_cylinder_center_01.ppm detected=1 area=30388 center=(645,337) bbox=(538,243)-(751,431) hue=8 color=1 shape=1 class=17 fill_q8=192 compactness_q12=3 inertia_q20=204351 variance=417
+red_cylinder_upper_right_01.ppm detected=1 area=29927 center=(875,146) bbox=(780,58)-(969,233) hue=8 color=1 shape=1 class=17 fill_q8=229 compactness_q12=2 inertia_q20=1255133 variance=493
+orange_cylinder_center_01.ppm detected=1 area=30769 center=(620,382) bbox=(514,288)-(726,475) hue=12 color=2 shape=1 class=33 fill_q8=196 compactness_q12=4 inertia_q20=195964 variance=373
+yellow_pentagonal_prism_center_01.ppm detected=1 area=25173 center=(641,315) bbox=(540,226)-(741,403) hue=25 color=3 shape=3 class=51 fill_q8=179 compactness_q12=4 inertia_q20=205342 variance=541
+green_triangular_prism_center_01.ppm detected=1 area=16608 center=(636,351) bbox=(555,271)-(716,431) hue=54 color=4 shape=2 class=66 fill_q8=163 compactness_q12=1 inertia_q20=321587 variance=347
+blue_cube_atomic_01.ppm detected=1 area=33452 center=(658,320) bbox=(568,229)-(748,410) hue=113 color=5 shape=4 class=84 fill_q8=259 compactness_q12=3 inertia_q20=185703 variance=426
+red_cylinder_atomic_01.ppm detected=1 area=30934 center=(628,324) bbox=(520,231)-(735,417) hue=9 color=1 shape=1 class=17 fill_q8=196 compactness_q12=5 inertia_q20=196004 variance=443
+orange_cylinder_atomic_01.ppm detected=1 area=31572 center=(622,351) bbox=(514,256)-(729,445) hue=12 color=2 shape=1 class=33 fill_q8=196 compactness_q12=6 inertia_q20=190628 variance=280
+yellow_pentagonal_prism_atomic_01.ppm detected=1 area=26732 center=(630,334) bbox=(528,246)-(731,421) hue=24 color=3 shape=3 class=51 fill_q8=190 compactness_q12=5 inertia_q20=195555 variance=793
+green_triangular_prism_atomic_01.ppm detected=1 area=15346 center=(633,323) bbox=(558,242)-(708,403) hue=54 color=4 shape=2 class=66 fill_q8=160 compactness_q12=4 inertia_q20=267653 variance=186
+green_triangular_prism_atomic_02.ppm detected=1 area=15342 center=(634,322) bbox=(560,241)-(708,403) hue=53 color=4 shape=2 class=66 fill_q8=161 compactness_q12=4 inertia_q20=275900 variance=314
+blue_cube_lower_right_dynamic_roi_01.ppm detected=1 area=34921 center=(889,470) bbox=(794,373)-(983,566) hue=115 color=5 shape=4 class=84 fill_q8=242 compactness_q12=1 inertia_q20=488297 variance=573
+green_triangular_prism_upper_left_dynamic_roi_01.ppm detected=1 area=14491 center=(538,153) bbox=(456,76)-(620,229) hue=53 color=4 shape=2 class=66 fill_q8=145 compactness_q12=0 inertia_q20=2281265 variance=612
+orange_cylinder_right_dynamic_roi_01.ppm detected=1 area=34529 center=(926,322) bbox=(812,231)-(1040,413) hue=11 color=2 shape=1 class=33 fill_q8=210 compactness_q12=2 inertia_q20=549667 variance=808
+yellow_pentagonal_prism_bottom_dynamic_roi_01.ppm detected=1 area=29201 center=(753,529) bbox=(648,432)-(857,625) hue=22 color=3 shape=3 class=51 fill_q8=183 compactness_q12=2 inertia_q20=499507 variance=1032
+red_cylinder_lower_left_dynamic_roi_01.ppm detected=1 area=37006 center=(561,531) bbox=(461,418)-(661,643) hue=10 color=1 shape=1 class=17 fill_q8=208 compactness_q12=1 inertia_q20=514467 variance=749
+blue_cube_center_01.ppm detected=0 area=0 center=(0,0) bbox=(0,0)-(0,0) hue=0 color=0 shape=0 class=0 fill_q8=0 compactness_q12=0 inertia_q20=0 variance=0
+All HLS feature tests passed
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:01:12 . Memory (MB): peak = 155.988 ; gain = 58.484
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:01:12 . Memory (MB): peak = 155.988 ; gain = 58.484
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:01:13 . Memory (MB): peak = 166.359 ; gain = 68.855
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into '(anonymous namespace)::rgb_to_hue' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:60) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into '(anonymous namespace)::rgb_to_hue' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:61) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into '(anonymous namespace)::rgb_to_saturation' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:95) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into '(anonymous namespace)::rgb_to_saturation' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:96) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::circular_hue_distance' into '(anonymous namespace)::classify_color' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:114) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::make_edge_stepper' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:277) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:306) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:307) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::rgb_to_saturation' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:453) automatically.
+WARNING: [SYNCHK 200-120] D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:341: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'.
+WARNING: [SYNCHK 200-23] D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:142: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 2 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:01:13 . Memory (MB): peak = 182.109 ; gain = 84.605
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function '(anonymous namespace)::classify_color' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:104:5).
+INFO: [XFORM 203-502] Unrolling all loops for pipelining in function '(anonymous namespace)::background_different' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:136:40).
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:112) in function '(anonymous namespace)::classify_color' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:140) in function '(anonymous namespace)::background_different' completely with a factor of 3.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into '(anonymous namespace)::rgb_to_hue' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:60) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into '(anonymous namespace)::rgb_to_hue' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:61) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into '(anonymous namespace)::rgb_to_saturation' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:95) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into '(anonymous namespace)::rgb_to_saturation' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:96) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::circular_hue_distance' into '(anonymous namespace)::classify_color' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:114) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::make_edge_stepper' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:277) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::maximum3' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:306) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::minimum3' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:307) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::rgb_to_saturation' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:453) automatically.
+INFO: [XFORM 203-602] Inlining function '(anonymous namespace)::classify_shape' into 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:462) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:298:55) to (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:298:49) in function 'vision_feature_accel'... converting 11 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:354:9) to (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:290:46) in function 'vision_feature_accel'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:378:51) to (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:378:45) in function 'vision_feature_accel'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:453:37) to (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:466:1) in function 'vision_feature_accel'... converting 9 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'vision_feature_accel' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:180)...15 expression(s) balanced.
+INFO: [XFORM 203-11] Balancing expressions in function '(anonymous namespace)::background_different' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:137:5)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:14 . Memory (MB): peak = 223.875 ; gain = 126.371
+INFO: [XFORM 203-541] Flattening a loop nest 'Loop-1' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:290:19) in function 'vision_feature_accel'.
+WARNING: [XFORM 203-631] Renaming function '(anonymous namespace)::rgb_to_hue' to '(anonymous namespace' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:8:27)
+WARNING: [XFORM 203-631] Renaming function '(anonymous namespace)::classify_color' to '(anonymous namespace.1' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:89:5)
+WARNING: [XFORM 203-631] Renaming function '(anonymous namespace)::background_different' to '(anonymous namespace.2' (D:/312312/FPGA/camera_base_2019_1_fixed/hls/vision_feature_accel/src/vision_feature_accel.cpp:137:5)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:01:15 . Memory (MB): peak = 251.312 ; gain = 153.809
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'vision_feature_accel' ...
+WARNING: [SYN 201-103] Legalizing function name '(anonymous namespace.2' to 'p_anonymous_namespace_2'.
+WARNING: [SYN 201-103] Legalizing function name '(anonymous namespace' to 'p_anonymous_namespace'.
+WARNING: [SYN 201-103] Legalizing function name '(anonymous namespace.1' to 'p_anonymous_namespace_1'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'p_anonymous_namespace_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function '(anonymous namespace.2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 75.126 seconds; current allocated memory: 197.603 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.067 seconds; current allocated memory: 197.757 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'p_anonymous_namespace' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 198.090 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.112 seconds; current allocated memory: 198.435 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'p_anonymous_namespace_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function '(anonymous namespace.1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 7.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.137 seconds; current allocated memory: 198.776 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.085 seconds; current allocated memory: 199.171 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'vision_feature_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 9.
+INFO: [SCHED 204-61] Pipelining loop 'Loop 2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.566 seconds; current allocated memory: 202.434 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+WARNING: [BIND 205-102] The specified resource core for memory 'previous_line_V' will be ignored if a simpler one can be used.
+WARNING: [BIND 205-102] The specified resource core for memory 'column_occupancy_V' will be ignored if a simpler one can be used.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.123 seconds; current allocated memory: 207.828 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_anonymous_namespace_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_anonymous_namespace_2'.
+INFO: [HLS 200-111]  Elapsed time: 0.848 seconds; current allocated memory: 208.825 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_anonymous_namespace' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_sdiv_15ns_9ns_15_19_seq_1' to 'vision_feature_acbkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acbkb': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_anonymous_namespace'.
+INFO: [HLS 200-111]  Elapsed time: 0.135 seconds; current allocated memory: 210.015 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_anonymous_namespace_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_anonymous_namespace_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.204 seconds; current allocated memory: 210.722 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'vision_feature_accel' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/video_out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_x0_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_y0_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_x1_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_y1_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/detection_padding_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_valid_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_tl_x_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_tl_y_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_tr_x_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_tr_y_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_br_x_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_br_y_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_bl_x_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/roi_bl_y_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/background_delta_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/min_saturation_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/detected_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/area_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/center_x_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/center_y_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/bbox_x0_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/bbox_y0_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/bbox_x1_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/bbox_y1_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/mean_hue_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/color_id_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/shape_id_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/class_id_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/fill_q8_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/compactness_q12_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/inertia_q20_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'vision_feature_accel/luma_variance_V' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'vision_feature_accel' to 's_axilite & ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_VISION_BACKGROUND_LU' to 'vision_feature_accud' due to the length limit 20
+INFO: [RTGEN 206-100] Bundling port 'return', 'roi_x0_V', 'roi_y0_V', 'roi_x1_V', 'roi_y1_V', 'detection_padding_V', 'roi_valid_V', 'roi_tl_x_V', 'roi_tl_y_V', 'roi_tr_x_V', 'roi_tr_y_V', 'roi_br_x_V', 'roi_br_y_V', 'roi_bl_x_V', 'roi_bl_y_V', 'background_delta_V', 'min_saturation_V', 'detected_V', 'area_V', 'center_x_V', 'center_y_V', 'bbox_x0_V', 'bbox_y0_V', 'bbox_x1_V', 'bbox_y1_V', 'mean_hue_V', 'color_id_V', 'shape_id_V', 'class_id_V', 'fill_q8_V', 'compactness_q12_V', 'inertia_q20_V' and 'luma_variance_V' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_previous_line_V' to 'vision_feature_acdEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_column_occupancy_V' to 'vision_feature_aceOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_40ns_32ns_16_44_seq_1' to 'vision_feature_acfYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_22ns_22ns_44_6_1' to 'vision_feature_acg8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_44ns_44ns_16_48_seq_1' to 'vision_feature_achbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_48ns_48ns_96_6_1' to 'vision_feature_acibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_96ns_32ns_64_100_seq_1' to 'vision_feature_acjbC' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_32ns_32ns_64_5_1' to 'vision_feature_ackbM' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_65ns_64ns_32_69_seq_1' to 'vision_feature_aclbW' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_40ns_32ns_8_44_seq_1' to 'vision_feature_acmb6' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_48ns_8ns_8_52_seq_1' to 'vision_feature_acncg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_40ns_32ns_32_44_seq_1' to 'vision_feature_acocq' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_udiv_56ns_32ns_56_60_seq_1' to 'vision_feature_acpcA' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_32s_32s_32_5_1' to 'vision_feature_acqcK' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_mul_16ns_17s_33_3_1' to 'vision_feature_acrcU' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mac_mulsub_16ns_17s_33s_34_3_1' to 'vision_feature_acsc4' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_ama_addmuladd_18ns_18ns_8ns_34s_35_3_1' to 'vision_feature_actde' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mac_muladd_9ns_8ns_16ns_16_3_1' to 'vision_feature_acudo' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_mul_10ns_10ns_20_3_1' to 'vision_feature_acvdy' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mac_muladd_6ns_8ns_16ns_16_3_1' to 'vision_feature_acwdI' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_mul_11ns_11ns_22_3_1' to 'vision_feature_acxdS' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'vision_feature_accel_mul_mul_16ns_16ns_32_3_1' to 'vision_feature_acyd2' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acfYi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acg8j': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_achbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acibs': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acjbC': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_ackbM': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_aclbW': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acmb6': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acncg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acocq': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acpcA': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acqcK': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acrcU': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acsc4': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_actde': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acudo': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acvdy': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acwdI': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acxdS': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'vision_feature_acyd2': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'vision_feature_accel'.
+INFO: [HLS 200-111]  Elapsed time: 1.219 seconds; current allocated memory: 219.655 MB.
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acbkb_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acfYi_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acg8j_MulnS_0'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_achbi_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acibs_MulnS_1'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acjbC_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_ackbM_MulnS_2'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_aclbW_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acmb6_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acncg_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acocq_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acpcA_div'
+INFO: [RTMG 210-282] Generating pipelined core: 'vision_feature_acqcK_MulnS_3'
+INFO: [RTMG 210-279] Implementing memory 'vision_feature_accud_rom' using block ROMs.
+INFO: [RTMG 210-278] Implementing memory 'vision_feature_acdEe_ram (RAM_S2P_BRAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'vision_feature_aceOg_ram (RAM_S2P_BRAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:09 ; elapsed = 00:01:25 . Memory (MB): peak = 306.914 ; gain = 209.410
+INFO: [VHDL 208-304] Generating VHDL RTL for vision_feature_accel.
+INFO: [VLOG 209-307] Generating Verilog RTL for vision_feature_accel.
+TOOLCHAIN_STATUS=SUCCESS
+INFO: [HLS 200-112] Total elapsed time: 84.653 seconds; peak allocated memory: 219.655 MB.
+INFO: [Common 17-206] Exiting vivado_hls at Sat Oct  3 18:37:16 2026...

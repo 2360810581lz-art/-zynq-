@@ -1,0 +1,8 @@
+
+PIPE_COMMAND: D:\XILINX\SDK\2019.1\bin\bootgen.bat ['-arch', 'zynq', '-image', 'boot.bif', '-o', 'BOOT.bin']
+
+
+****** Xilinx Bootgen v2019.1
+  **** Build date : May 24 2019-15:06:59
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+

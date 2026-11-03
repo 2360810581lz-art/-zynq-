@@ -1,0 +1,19 @@
+{
+  "passed": false,
+  "rtl_report_pass": true,
+  "receipt_conflicts": [
+    "receipt rtl_cosim_pass disagrees with actual cosim report"
+  ],
+  "hls_estimates": {
+    "clock_period_ns": 8.571,
+    "target_period_ns": 10.0,
+    "resources": {
+      "LUT": 3578,
+      "FF": 3428,
+      "DSP48E": 23,
+      "BRAM_18K": 27
+    }
+  },
+  "board_verified": false,
+  "scope": "HLS estimates and cosimulation report only; no whole-system FPS inference"
+}

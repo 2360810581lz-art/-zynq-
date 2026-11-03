@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tests_run": 48,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_access": false,
+  "python": "3.12.14",
+  "scope": "portable scripts and recorded evidence replay; no new Vivado or board run"
+}

@@ -1,0 +1,35 @@
+{
+  "port": "COM12",
+  "baud": 115200,
+  "arm_motion_commands_sent": false,
+  "devices": [
+    {
+      "port": "COM12",
+      "description": "USB-SERIAL CH340 (COM12)",
+      "hwid": "USB VID:PID=1A86:7523 SER= LOCATION=1-4.3"
+    }
+  ],
+  "attempts": [
+    {
+      "label": "crlf",
+      "sent_hex": "5354415455530d0a",
+      "received_hex": "",
+      "text": ""
+    },
+    {
+      "label": "paced_cr",
+      "sent_hex": "5354415455530d",
+      "received_hex": "",
+      "text": ""
+    },
+    {
+      "label": "lf",
+      "sent_hex": "0a5354415455530a",
+      "received_hex": "",
+      "text": ""
+    }
+  ],
+  "opened": true,
+  "startup_hex": "",
+  "finished": "2026-11-04T01:23:40.560935+08:00"
+}

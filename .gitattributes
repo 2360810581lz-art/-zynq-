@@ -1,0 +1,2 @@
+# Preserve the bytes used by the source, release and calibration hashes.
+* -text

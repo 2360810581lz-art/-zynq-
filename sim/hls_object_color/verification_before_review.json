@@ -1,0 +1,29 @@
+{
+  "state": "failed",
+  "job": "D:\\312312\\FPGA\\toolchain\\jobs\\20261018_021715_hls_2cefcb0f",
+  "host_cases": 16,
+  "rtl_cosim_pass": false,
+  "hls_estimates": {
+    "estimated_ns": "8.321",
+    "resources": {
+      "BRAM_18K": "2",
+      "DSP48E": "2",
+      "FF": "1906",
+      "LUT": "2678",
+      "URAM": "0"
+    }
+  },
+  "pixel_loops": [
+    {
+      "name": "scan",
+      "ii": "2"
+    }
+  ],
+  "frozen_inputs_unchanged": true,
+  "integrated": false,
+  "hardware_verified": false,
+  "hardware_accessed": false,
+  "sd_changed": false,
+  "calibrated_accuracy": false,
+  "shape_unknown": true
+}

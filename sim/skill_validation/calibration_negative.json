@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "expected_exit": 1,
+  "actual_exit": 1,
+  "mutation": "one motor payload byte changed in log and decoded trace of the copied candidate",
+  "mutation_on_package": false,
+  "result": {
+    "passed": false,
+    "motion_traces_equal": false,
+    "variants": {
+      "original_calibrated": {
+        "assertions": 354,
+        "motor_packets": 183,
+        "servo_targets": 5760,
+        "trace_events": 5943
+      },
+      "known_good_integrated": {
+        "assertions": 354,
+        "motor_packets": 183,
+        "servo_targets": 5760,
+        "trace_events": 5943
+      },
+      "current_integrated": {
+        "assertions": 354,
+        "motor_packets": 183,
+        "servo_targets": 5760,
+        "trace_events": 5943
+      }
+    },
+    "issues": [
+      "motion traces differ"
+    ],
+    "hardware_access": false,
+    "scope": "decoded commands and servo targets; timestamps ignored"
+  }
+}

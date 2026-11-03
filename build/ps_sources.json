@@ -1,0 +1,24 @@
+{
+  "vision_source_build": "frozen integrated baseline 20261103, renamed filesystem paths only",
+  "source_sha256": {
+    "live/detector.c": "355624d9a5fff07d5319b816b92378106d9dd68ac45839a5eaa974c8248fb6fa",
+    "live/detector.h": "3ea0e329eeb9c2d5c45d4acd2503fc11c06235cb9224c5bb0b6bf26c9cc43fa9",
+    "live/main.c": "e3a26a90f479133806750fad21df49b3ec1760f5f6163c4b3671f4de3a7ee79a",
+    "live/profile.h": "75e7f6e92895557a08438b31c1d884c78fa0141f1ffe0b80a5b1f1fe4f22460d",
+    "ps/vision_black_border.c": "9bdb173c154fa3b1578399a6bc71f5045ac524844ae12022147eeb807cd25518",
+    "ps/vision_black_border.h": "f9bc77154f15d993ab400cd26c23eaff6af2c3165ceb9122a03b262ad4b22e64",
+    "ps/vision_frame_view.h": "176069cd62b9f5d64cba499eed82e07889268dcd6cd47dbcf4efab0ed22242a2",
+    "src/display_demo.h": "2b23f4cfaad8cf87d8218327e64105cfd147be9536c9a7fefa3e69f91b60e892",
+    "src/lscript.ld": "69e8abfa3916a99745e92bad55287a8f9e425779858213ebeaba779ad66e040e",
+    "src/ov5640.c": "06db9c7563b18bccdbd8d63a215f7a9d5e9f29db0d3bf397c66078f88a963019",
+    "src/ov5640.h": "49ad8b2b0f3fa9ddc38ee5a404204ae75273b84e7a3076cda1f4cb4d90444a8b",
+    "src/xilinx.spec": "f100af82b444989adf5aad4ad612b9ae3b4ddac007f5d9653f1abf254235b085",
+    "src/display_ctrl/display_ctrl.c": "4b43e2626e32286b0805116ba72f5314a1992294fdc09bd71f6795f2ec3945d0",
+    "src/display_ctrl/display_ctrl.h": "296656dc26de65ecf50f089ca74fc93eb5a9ae890fdcb622fb3782d567a5ccff",
+    "src/display_ctrl/vga_modes.h": "8544a68f725f04001d82881bec21435f27fe39b52b54227d75d77ec75ec5f57f",
+    "src/dynclk/dynclk.c": "814b7f508db2ead5ce02be9e99aa1ec3ab0ab6530dae9d4fc0e02ec927cca429",
+    "src/dynclk/dynclk.h": "2d397eb42d05864cd3f18bcc0a060d43e04f00c97f91d01589f3043826479f97",
+    "src/i2c/ps_i2c.c": "9194918ea6ac186d2c97d448e606f95001688c51b8f6325618606f8e9a99d5a3",
+    "src/i2c/ps_i2c.h": "52b0c5ab3773e538b95d470e8fd3d20c9ade90c24ea5fa91bbc63affe5015151"
+  }
+}

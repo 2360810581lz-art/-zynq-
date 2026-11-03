@@ -1,0 +1,213 @@
+{
+  "state": "succeeded",
+  "acceptance": "scene_count_and_render_after_physical_operation",
+  "transition": "physical_SD_cold_start",
+  "expected_count": 6,
+  "user_feedback": {
+    "text": "完整实时画面，六框正常",
+    "source": "direct user message"
+  },
+  "physical_HDMI_confirmed": true,
+  "previous_accepted_scene": {
+    "job": "D:\\312312\\FPGA\\toolchain\\jobs\\20261014_220128_live_probe",
+    "expected_count": 6,
+    "sha256": "8e47fe404d2470df561e24fb0f8a5a661a97623ece858c91dbb8c1909735a936"
+  },
+  "elf_sha256": "ede37c72b389991dab8d04193a57286d2cb7c0a30471db385fe681250ab2fa8e",
+  "baseline_bit_input_sha256": "f4139c6d4fc827f59cd04789f877f19916e8fb2948ac218e8d61c5ad5c4be100",
+  "status_samples": {
+    "samples": 8,
+    "count_histogram": {
+      "6": 8
+    },
+    "frames_processed": 27,
+    "elapsed_ms": 3599,
+    "measured_fps": 7.502083912197833,
+    "active_dma_errors": 0,
+    "camera_recoveries": 0
+  },
+  "trace": {
+    "frames": 64,
+    "count_histogram": {
+      "6": 64
+    },
+    "first_frame": 368,
+    "last_frame": 431,
+    "elapsed_ms": 8452,
+    "measured_fps": 7.453857075248462,
+    "observed_missing_or_extra_box": false,
+    "replayed_transitions": 63
+  },
+  "displayed_pixel_comparison": {
+    "pixels": 921600,
+    "mismatches": 0,
+    "raw_ROI_shown_box_state_match": true
+  },
+  "stability": {
+    "tracks": [
+      {
+        "anchor_bbox": [
+          720,
+          92,
+          899,
+          269
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "anchor_bbox": [
+          368,
+          108,
+          553,
+          285
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          2,
+          0,
+          6,
+          2
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "anchor_bbox": [
+          570,
+          266,
+          755,
+          443
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "anchor_bbox": [
+          740,
+          386,
+          915,
+          567
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          4,
+          4,
+          2,
+          4
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "anchor_bbox": [
+          374,
+          446,
+          555,
+          637
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          2,
+          4,
+          4,
+          4
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "anchor_bbox": [
+          570,
+          480,
+          713,
+          641
+        ],
+        "matched_frames": 64,
+        "complete_track": true,
+        "raw_edge_span": [
+          2,
+          4,
+          2,
+          2
+        ],
+        "shown_edge_span": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "all_display_boxes_stationary": true
+  },
+  "production_matches_running_candidate": {
+    "main.c": true,
+    "detector.c": true,
+    "detector.h": true,
+    "profile.c": true,
+    "profile.h": true
+  },
+  "production_source_changed": false,
+  "reprogrammed": false,
+  "SD_updated": false,
+  "live_application_left_running": true,
+  "transition_instant_captured": false,
+  "operation_response_latency_measured": false,
+  "runtime_PL_bit_identity_independently_verified": false,
+  "general_0_to_8_physical_acceptance_complete": false,
+  "scope": "User-labelled count, recorded feedback, post-operation ARM telemetry and held-frame replay; physical HDMI confirmation requires the explicit flag. No transition instant/latency, object identity, validated shape classification, general dynamic stability or new PL acceptance.",
+  "reviewer_sha256": "d816a8bd0e475058e88a77fb0c1aa6e6fb6a9c6512194e0ac5ee1e6e8da09946",
+  "evidence_sha256": {
+    "status.json": "8db456fa562f133cd6a659491593e6a21605389e17331d64d539957836d20697",
+    "runtime_identity.json": "98c04a579b86714470467066a574d4f88e394fb2522748c9a8fc6250f55c4450",
+    "vdma_profile.json": "4ddca7d827753d29597067be3b852ac1f9c439ade528f37411e7175113d8a755",
+    "samples.json": "a2156c7ff3ba990a9d2399a59847bc314fd5c2f7cffa16ff3071d5df16483e01",
+    "frame_00/board_review/verification.json": "7c216db909e41b222e5eadb007a6bf045608d29717922f6301e8aa5f1b53eb75",
+    "frame_00/box_trace_review/verification.json": "846908886e32bc8e764b978f02be7eaa4d1d3791dcec1cfb79a5bace71b6935d",
+    "frame_00/camera.bgr": "3a90f7e9faee8676f952774dc1b8b660a5181dc8d070107b97465a475e6fb220",
+    "frame_00/display.bgr": "50116210cc0eba6496c30e7fd762aaf7e66955886fbb4c3ae61d60b5972feafe",
+    "frame_00/result.bin": "fabce0b6d97b2258069def6b8e25669adbf4f352c4cc634786380f3e05cf1156",
+    "frame_00/live_shown.bin": "6d719b0698da1c2af53329a65007d4f5d2c66886d79be13bbb317f9017388365",
+    "frame_00/live_box_trace.bin": "2fbeedc327305f2d7e1cfe70457333b45c211c9b72b39fc24cbf65cf464c7b71"
+  }
+}

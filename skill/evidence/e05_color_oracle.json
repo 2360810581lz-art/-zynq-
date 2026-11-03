@@ -1,0 +1,451 @@
+{
+  "cases": [
+    {
+      "name": "history_0",
+      "objects": 5,
+      "status": 0,
+      "details": [
+        {
+          "color": 5,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            8722
+          ],
+          "eligible": 8722,
+          "sampled": 8722
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            0,
+            5542,
+            0,
+            0
+          ],
+          "eligible": 5542,
+          "sampled": 5542
+        },
+        {
+          "color": 4,
+          "votes": [
+            0,
+            0,
+            0,
+            4114,
+            0
+          ],
+          "eligible": 4114,
+          "sampled": 4136
+        },
+        {
+          "color": 1,
+          "votes": [
+            5729,
+            272,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6001,
+          "sampled": 6001
+        },
+        {
+          "color": 2,
+          "votes": [
+            779,
+            5731,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6510,
+          "sampled": 6510
+        }
+      ]
+    },
+    {
+      "name": "history_1",
+      "objects": 5,
+      "status": 0,
+      "details": [
+        {
+          "color": 5,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            8737
+          ],
+          "eligible": 8737,
+          "sampled": 8737
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            0,
+            5518,
+            0,
+            0
+          ],
+          "eligible": 5518,
+          "sampled": 5518
+        },
+        {
+          "color": 4,
+          "votes": [
+            0,
+            0,
+            0,
+            4110,
+            0
+          ],
+          "eligible": 4110,
+          "sampled": 4142
+        },
+        {
+          "color": 1,
+          "votes": [
+            5707,
+            299,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6006,
+          "sampled": 6006
+        },
+        {
+          "color": 2,
+          "votes": [
+            824,
+            5663,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6487,
+          "sampled": 6487
+        }
+      ]
+    },
+    {
+      "name": "history_2",
+      "objects": 5,
+      "status": 0,
+      "details": [
+        {
+          "color": 5,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            8655
+          ],
+          "eligible": 8655,
+          "sampled": 8655
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            0,
+            5551,
+            0,
+            0
+          ],
+          "eligible": 5551,
+          "sampled": 5551
+        },
+        {
+          "color": 4,
+          "votes": [
+            0,
+            0,
+            0,
+            4108,
+            0
+          ],
+          "eligible": 4108,
+          "sampled": 4126
+        },
+        {
+          "color": 1,
+          "votes": [
+            5704,
+            298,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6002,
+          "sampled": 6002
+        },
+        {
+          "color": 2,
+          "votes": [
+            767,
+            5736,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6503,
+          "sampled": 6503
+        }
+      ]
+    },
+    {
+      "name": "history_3",
+      "objects": 5,
+      "status": 0,
+      "details": [
+        {
+          "color": 5,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            8827
+          ],
+          "eligible": 8827,
+          "sampled": 8827
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            68,
+            5484,
+            0,
+            0
+          ],
+          "eligible": 5552,
+          "sampled": 5554
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            89,
+            3959,
+            0,
+            0
+          ],
+          "eligible": 4048,
+          "sampled": 4057
+        },
+        {
+          "color": 4,
+          "votes": [
+            0,
+            0,
+            142,
+            3933,
+            0
+          ],
+          "eligible": 4075,
+          "sampled": 4156
+        },
+        {
+          "color": 2,
+          "votes": [
+            2340,
+            3787,
+            0,
+            0,
+            0
+          ],
+          "eligible": 6127,
+          "sampled": 6127
+        }
+      ]
+    },
+    {
+      "name": "random_high64",
+      "objects": 2,
+      "status": 0,
+      "details": [
+        {
+          "color": 0,
+          "votes": [
+            13,
+            6,
+            10,
+            34,
+            32
+          ],
+          "eligible": 95,
+          "sampled": 128
+        },
+        {
+          "color": 0,
+          "votes": [
+            399,
+            202,
+            432,
+            971,
+            942
+          ],
+          "eligible": 2946,
+          "sampled": 3968
+        }
+      ]
+    },
+    {
+      "name": "five_colors",
+      "objects": 5,
+      "status": 0,
+      "details": [
+        {
+          "color": 1,
+          "votes": [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": 2,
+          "sampled": 2
+        },
+        {
+          "color": 2,
+          "votes": [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "eligible": 2,
+          "sampled": 2
+        },
+        {
+          "color": 3,
+          "votes": [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "eligible": 2,
+          "sampled": 2
+        },
+        {
+          "color": 4,
+          "votes": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "eligible": 2,
+          "sampled": 2
+        },
+        {
+          "color": 5,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "eligible": 2,
+          "sampled": 2
+        }
+      ]
+    },
+    {
+      "name": "tie_unknown",
+      "objects": 1,
+      "status": 0,
+      "details": [
+        {
+          "color": 0,
+          "votes": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": 2,
+          "sampled": 2
+        }
+      ]
+    },
+    {
+      "name": "dark_unknown",
+      "objects": 1,
+      "status": 0,
+      "details": [
+        {
+          "color": 0,
+          "votes": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": 0,
+          "sampled": 2
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "objects": 0,
+      "status": 0,
+      "details": []
+    },
+    {
+      "name": "overlap_fault",
+      "objects": 2,
+      "status": 2,
+      "details": []
+    },
+    {
+      "name": "late_pixel_fault",
+      "objects": 1,
+      "status": 4,
+      "details": []
+    },
+    {
+      "name": "membership_high_fault",
+      "objects": 1,
+      "status": 2,
+      "details": []
+    },
+    {
+      "name": "missing_object_fault",
+      "objects": 1,
+      "status": 8,
+      "details": []
+    },
+    {
+      "name": "pixel_framing_fault",
+      "objects": 1,
+      "status": 4,
+      "details": []
+    },
+    {
+      "name": "membership_terminal_fault",
+      "objects": 1,
+      "status": 2,
+      "details": []
+    }
+  ],
+  "scope": "OpenCV vote equivalence; historical labels are predictions, not color ground truth"
+}

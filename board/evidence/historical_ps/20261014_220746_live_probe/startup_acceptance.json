@@ -1,0 +1,58 @@
+{
+  "state": "succeeded",
+  "recorded_at": "2026-10-14T22:09:19.435996+08:00",
+  "acceptance": "physical_SD_cold_start_with_runtime_identity_and_HDMI_confirmation",
+  "physical_cold_start_verified": true,
+  "physical_reset_verified": false,
+  "physical_cold_start_cycles": 1,
+  "user_feedback": {
+    "text": "完整实时画面，六框正常",
+    "source": "direct user message"
+  },
+  "requested_power_off_seconds_min": 10,
+  "requested_observation_seconds": 45,
+  "actual_power_off_duration_independently_measured": false,
+  "boot_sha256": "2dc86e654176a8976c647c86150f26564a679f90894b4edb9887c9fdbc1ad85c",
+  "elf_sha256": "ede37c72b389991dab8d04193a57286d2cb7c0a30471db385fe681250ab2fa8e",
+  "expected_count": 6,
+  "actual_runtime_ELF_identity_verified": true,
+  "status_samples": {
+    "samples": 8,
+    "count_histogram": {
+      "6": 8
+    },
+    "frames_processed": 27,
+    "elapsed_ms": 3599,
+    "measured_fps": 7.502083912197833,
+    "active_dma_errors": 0,
+    "camera_recoveries": 0
+  },
+  "trace": {
+    "frames": 64,
+    "count_histogram": {
+      "6": 64
+    },
+    "first_frame": 368,
+    "last_frame": 431,
+    "elapsed_ms": 8452,
+    "measured_fps": 7.453857075248462,
+    "observed_missing_or_extra_box": false,
+    "replayed_transitions": 63
+  },
+  "displayed_pixel_comparison": {
+    "pixels": 921600,
+    "mismatches": 0,
+    "raw_ROI_shown_box_state_match": true
+  },
+  "all_display_boxes_stationary": true,
+  "reprogrammed": false,
+  "new_PL": false,
+  "live_application_left_running": true,
+  "scope": "One user-performed SD cold boot, explicit physical HDMI confirmation and read-only runtime verification; no JTAG loading. No general startup reliability, latency, new PL timing/throughput or full 0-to-8 physical acceptance.",
+  "evidence_sha256": {
+    "acceptance.json": "2850983d3ebaa62910749a75c399b3ff220233c93a80a5ae224236ca95033dba",
+    "sd_deployment.json": "37f5c4f08193caa7818c52e2a5624085bcfa8d614fbca1fc28b7a4a88305cb3a",
+    "BOOT_before.bin": "0034837bd46c754e76cd16349855e72d55aaf0be4eb8af37db4434e37fdaae4d",
+    "boot_manifest.json": "e6a9089559d5b1cac6f8012bdc64ca405c566a4af2d05d5e5c9b296dafd8da51"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "timestamp_utc": "2026-11-03T19:57:54.350528+00:00",
+  "passed": true,
+  "hardware_access": false,
+  "cases": [
+    {
+      "name": "golden_match",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/hls-golden/scripts/compare_json.py",
+        "--golden",
+        "skill/hls-golden/examples/golden.json",
+        "--actual",
+        "skill/hls-golden/examples/actual.json"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/golden_match.json",
+      "stderr": ""
+    },
+    {
+      "name": "color_hls",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/hls-golden/scripts/inspect_hls.py",
+        "--synthesis",
+        "skill/evidence/e03_color_csynth.xml",
+        "--cosim",
+        "skill/evidence/e04_color_cosim.rpt"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/color_hls.json",
+      "stderr": ""
+    },
+    {
+      "name": "historical_receipt_conflict",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/hls-golden/scripts/inspect_hls.py",
+        "--synthesis",
+        "skill/evidence/e08_components_csynth.xml",
+        "--cosim",
+        "skill/evidence/e07_components_cosim.rpt",
+        "--receipt",
+        "skill/evidence/e06_components_old_receipt.json"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/historical_receipt_conflict.json",
+      "stderr": ""
+    },
+    {
+      "name": "current_timing_rejected",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/vivado-report-gate/scripts/check_reports.py",
+        "--timing",
+        "skill/evidence/e12_timing.rpt",
+        "--check-timing",
+        "skill/evidence/e13_check_timing.rpt",
+        "--drc",
+        "skill/evidence/e14_drc.rpt",
+        "--utilization",
+        "skill/evidence/e15_utilization.rpt"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/current_timing_rejected.json",
+      "stderr": ""
+    },
+    {
+      "name": "manifest_fixture",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/release-provenance/scripts/verify_manifest.py",
+        "--root",
+        "skill/release-provenance/examples",
+        "--manifest",
+        "skill/release-provenance/examples/manifest.json"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/manifest_fixture.json",
+      "stderr": ""
+    },
+    {
+      "name": "coordinate_preview",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/vision-motion-contract/scripts/preview_task.py",
+        "--result",
+        "skill/vision-motion-contract/examples/frame.json",
+        "--config",
+        "skill/vision-motion-contract/examples/config.json"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/coordinate_preview.json",
+      "stderr": ""
+    },
+    {
+      "name": "pynq_metadata_fixture",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "skill/pynq-overlay-portability/scripts/preflight.py",
+        "--bit",
+        "skill/pynq-overlay-portability/examples/demo.bit",
+        "--hwh",
+        "skill/pynq-overlay-portability/examples/demo.hwh",
+        "--contract",
+        "skill/pynq-overlay-portability/examples/contract.json"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expectation_met": true,
+      "result_file": "sim/skill_validation/results/pynq_metadata_fixture.json",
+      "stderr": ""
+    }
+  ],
+  "scope": "offline report and fixture replay; expected rejection is preserved"
+}

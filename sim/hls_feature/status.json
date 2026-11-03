@@ -1,0 +1,9 @@
+{
+  "action": "hls",
+  "state": "succeeded",
+  "pid": 10704,
+  "job_id": "20261003_183550_hls_b2ec6c6b",
+  "directory": "D:\\312312\\FPGA\\toolchain\\jobs\\20261003_183550_hls_b2ec6c6b",
+  "started": "2026-10-03T18:35:50.345105",
+  "finished": "2026-10-03T18:37:16.305778"
+}

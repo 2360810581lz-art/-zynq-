@@ -1,0 +1,70 @@
+{
+  "state": "succeeded",
+  "started": "2026-11-03T11:57:35.824312",
+  "hdf_source": "D:\\312312\\FPGA\\toolchain\\jobs\\20261103_115407_camera_claw_experimental_jtag\\camera_claw_top.hdf",
+  "hdf_sha256": "3726c7f4c1c5fa17e9a911dd6b38bb8bd119c364222528de9156c4874059ff0e",
+  "bit_sha256": "5bc6a285133f9bc8adf57095756ff0c416779d40649cfeba19b3c8b2aa581dc9",
+  "bit_in_hdf_verified": true,
+  "hardware_verified": false,
+  "SD_updated": false,
+  "scope": "Fresh combined-design BSP/FSBL and unchanged HDMI box sources; no deployment",
+  "elf_sha256": "247e0eb21c467712f39565189e900cc6ac020a1fb6119c5f33741229d785b752",
+  "fsbl_sha256": "fec18475f575c5179d4a2b852a7820cf3c798cf5c347a4a66513adbf6c41e16a",
+  "symbols": {
+    "liveCameraBuffer": {
+      "address": 1168832,
+      "bytes": 8294400
+    },
+    "frameBuf": {
+      "address": 9463232,
+      "bytes": 18662400
+    },
+    "live_result": {
+      "address": 37932288,
+      "bytes": 268
+    },
+    "live_roi_before": {
+      "address": 37932560,
+      "bytes": 72
+    },
+    "live_boxes": {
+      "address": 37932632,
+      "bytes": 280
+    },
+    "live_shown": {
+      "address": 37932912,
+      "bytes": 268
+    },
+    "live_command": {
+      "address": 37933184,
+      "bytes": 64
+    },
+    "live_boxes_before": {
+      "address": 37933248,
+      "bytes": 280
+    },
+    "live_box_trace": {
+      "address": 37933528,
+      "bytes": 20480
+    },
+    "live_status": {
+      "address": 37954048,
+      "bytes": 144
+    },
+    "live_roi": {
+      "address": 37954192,
+      "bytes": 72
+    }
+  },
+  "uart": {
+    "app": "UART1",
+    "fsbl": "UART0"
+  },
+  "source_build": "D:\\312312\\FPGA\\toolchain\\jobs\\20261101_171327_live_overlay",
+  "control_protocol": 2,
+  "status_words": 36,
+  "detector_profile": false,
+  "edge_capture": false,
+  "release_ready": false,
+  "finished": "2026-11-03T11:59:28.485413"
+}

@@ -1,0 +1,39 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Nov  2 22:37:17 2026
+| Host         : DESKTOP-SA4V8J2 running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file D:/312312/FPGA/toolchain/diagnostics/camera_claw_fix_20261102/routed/clock_interaction.rpt
+| Design       : camera_claw_top
+| Device       : 7z020-clg400
+| Speed File   : -2  PRODUCTION 1.11 2014-09-11
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                          WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock              
+From Clock                   To Clock                     Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints              
+---------------------------  ---------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  -----------------------  
+MIPI_D_PHY_RX_0_RxByteClkHS  MIPI_D_PHY_RX_0_RxByteClkHS  rise - rise     8.65     0.00            0         1174            14.28  Clean                Partial False Path       
+MIPI_D_PHY_RX_0_RxByteClkHS  clk_fpga_1                   rise - rise    13.27     0.00            0           45            14.28  Ignored              Max Delay Datapath Only  
+MIPI_D_PHY_RX_0_RxByteClkHS  clk_fpga_2                                                            0            7                   Ignored              False Path               
+PixelClk_Generator_clk_out1  PixelClk_Generator_clk_out1  rise - rise     1.42     0.00            0         4747            10.00  Clean                Timed                    
+PixelClk_Generator_clk_out1  clk_fpga_0                   rise - rise     8.51     0.00            0           34            10.00  Ignored              Max Delay Datapath Only  
+PixelClk_Generator_clk_out1  clk_fpga_1                   rise - rise     8.93     0.00            0           11            10.00  Ignored              Max Delay Datapath Only  
+camera_hs                    camera_hs                    rise - fall    -0.25    -0.48            2            2             1.79  Clean                Timed                    
+clk_fpga_0                   PixelClk_Generator_clk_out1  rise - rise     8.91     0.00            0           42            10.00  Ignored              Max Delay Datapath Only  
+clk_fpga_0                   clk_fpga_0                   rise - rise     0.32     0.00            0        21558            10.00  Clean                Timed                    
+clk_fpga_0                   clk_fpga_1                   rise - rise    19.89     0.00            0          210            21.00  Ignored              Max Delay Datapath Only  
+clk_fpga_0                   clk_fpga_2                                                            0            3                   Ignored              False Path               
+clk_fpga_1                   MIPI_D_PHY_RX_0_RxByteClkHS  rise - rise     5.92     0.00            0           11             7.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                   PixelClk_Generator_clk_out1  rise - rise     5.93     0.00            0           22             7.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                   clk_fpga_0                   rise - rise    28.45     0.00            0          243            30.00  Ignored              Max Delay Datapath Only  
+clk_fpga_1                   clk_fpga_1                   rise - rise     0.25     0.00            0        39581             7.00  Clean                Partial False Path       
+clk_fpga_1                   clk_fpga_2                                                            0            3                   Ignored              False Path               
+clk_fpga_2                   MIPI_D_PHY_RX_0_RxByteClkHS                                           0            8                   Ignored              False Path               
+clk_fpga_2                   clk_fpga_2                   rise - rise     1.24     0.00            0          249             5.00  Clean                Partial False Path       
+
+

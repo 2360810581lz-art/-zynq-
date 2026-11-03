@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "required_roles": [
+    "hardware",
+    "application"
+  ],
+  "artifacts": [
+    {
+      "id": "hw",
+      "role": "hardware",
+      "path": "hardware.txt",
+      "sha256": "3683e9c580de690a5ebfaee9517dfc4c8e0a0ab1088c9663b49d4477cb989a58",
+      "depends_on": {}
+    },
+    {
+      "id": "app",
+      "role": "application",
+      "path": "application.txt",
+      "sha256": "a0f4dcda79e40098fc5a23fd075e22d6285e957906b3eadd7005d3cd3299a7b6",
+      "depends_on": {
+        "hw": "3683e9c580de690a5ebfaee9517dfc4c8e0a0ab1088c9663b49d4477cb989a58"
+      }
+    }
+  ],
+  "fixture_only": true
+}
